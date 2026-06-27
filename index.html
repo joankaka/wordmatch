@@ -292,7 +292,10 @@
       filtered.forEach(word => {
         const card = document.createElement('div');
         card.className = 'bg-white border border-slate-100 rounded-2xl p-4 shadow-sm hover:shadow-md hover:border-brand-purpleAccent/30 transition-all cursor-pointer active:scale-[0.98]';
-        card.onclick = () => selectWordChallenge(word);
+        card.onclick = () => {
+          speak(word.word, 'en-US');
+          selectWordChallenge(word);
+        };
 
         const syllableHtml = (word.syllables || []).map(s =>
           `<span class="px-2 py-0.5 bg-brand-purpleLight text-brand-purpleAccent text-xs font-bold rounded-md">${s.text}</span>`
