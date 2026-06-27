@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>音节密码 · 单词联想配对</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              bg: '#F8FAFC',
+              darkBlue: '#1E293B',
+              navyCard: '#2A337E',
+              navyCardHover: '#1F2663',
+              accentYellow: '#F5C443',
+              accentYellowHover: '#E0B130',
+              textDark: '#0F172A',
+              borderLight: '#E2E8F0',
+              purpleAccent: '#5D38F5',
+              purpleLight: '#EEF0FF',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap');
+    body {
+      font-family: 'Inter', 'Noto Sans SC', sans-serif;
+      background-color: #F8FAFC;
+      -webkit-tap-highlight-color: transparent;
+    }
+    @keyframes shake-error {
+      0%, 100% { transform: translateX(0); border-color: #EF4444; box-shadow: 0 0 0 3px rgba(239,68,68,0.2); }
+      20%, 60% { transform: translateX(-4px); border-color: #EF4444; }
+      40%, 80% { transform: translateX(4px); border-color: #EF4444; }
+    }
+    @keyframes match-success {
+      0% { transform: scale(1); border-color: #10B981; box-shadow: 0 0 0 4px rgba(16,185,129,0.3); }
+      50% { transform: scale(1.02); border-color: #10B981; box-shadow: 0 0 0 8px rgba(16,185,129,0.1); }
+      100% { transform: scale(1); border-color: #10B981; box-shadow: 0 0 0 0px rgba(16,185,129,0); }
+    }
+    .animate-error { animation: shake-error 0.4s ease-in-out; }
+    .animate-success { animation: match-success 0.5s ease-in-out forwards; }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    .highlight-letter { text-decoration: underline; text-decoration-color: #2A337E; text-underline-offset: 3px; text-decoration-thickness: 2px; font-weight: 700; color: #2A337E; }
+  </style>
+</head>
+<body class="min-h-screen text-brand-textDark flex flex-col items-center p-4 md:p-6 overflow-x-hidden">
+
+  <main class="w-full max-w-lg bg-white min-h-[90vh] md:shadow-xl md:shadow-slate-100 rounded-[32px] p-5 md:p-6 flex flex-col justify-between border border-slate-100 relative">
+
+    <!-- 页面一：词汇列表 -->
+    <div id="page-list" class="flex flex-col flex-grow">
+      <div class="flex flex-col items-center text-center my-6">
+        <h1 class="text-2xl md:text-3xl font-black text-slate-800 tracking-tight">音节密码 · 单词联想配对</h1>
+      </div>
+
+      <!-- 搜索框 -->
+      <div class="mb-4 relative">
+        <input id="search-input" type="text" placeholder="搜索单词..." class="w-full px-4 py-2.5 pl-10 text-sm border border-slate-200 rounded-xl focus:outline-none focus:border-brand-purpleAccent focus:ring-2 focus:ring-brand-purpleLight transition-all" oninput="filterWords()">
+        <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"/>
+        </svg>
+      </div>
+
+      <!-- 难度筛选 -->
+      <div class="mb-4">
+        <div id="level-filter" class="flex gap-2 overflow-x-auto pb-2 no-scrollbar scroll-smooth">
+          <!-- JS渲染 -->
+        </div>
+      </div>
+
+      <!-- 首字母筛选 -->
+      <div class="mb-4">
+        <div id="alphabet-container" class="flex gap-2 overflow-x-auto pb-2 no-scrollbar scroll-smooth">
+          <!-- JS渲染 -->
+        </div>
+      </div>
+
+      <!-- 词卡列表 -->
+      <div class="flex-grow">
+        <div class="flex justify-between items-center mb-3 px-1">
+          <span class="text-xs font-extrabold text-slate-400 uppercase tracking-wider">词汇卡片列表</span>
+          <span id="list-count-badge" class="text-xs font-bold text-brand-purpleAccent bg-brand-purpleLight px-2 py-0.5 rounded-md">0 词</span>
+        </div>
+        <div id="words-card-list" class="grid grid-cols-1 gap-4"></div>
+        <div id="empty-state" class="hidden text-center py-12">
+          <p class="text-slate-400 text-sm font-medium">没有找到匹配的单词</p>
+          <p class="text-slate-300 text-xs mt-1">试试其他关键词</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 页面二：游戏页 -->
+    <div id="page-game" class="hidden flex flex-col flex-grow">
+      <button onclick="switchPage('list')" class="inline-flex items-center gap-1 text-xs font-semibold text-slate-500 hover:text-slate-800 transition-colors mb-4 self-start py-1">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"/>
+        </svg>
+        返回 A-Z 词汇列表
+      </button>
+
+      <!-- 核心词卡片 -->
+      <section class="bg-gradient-to-br from-[#1E2663] to-[#313A96] text-white rounded-2xl p-5 shadow-lg shadow-indigo-950/20 relative overflow-hidden mb-5">
+        <div class="absolute -right-10 -top-10 w-28 h-28 bg-white/5 rounded-full blur-xl animate-pulse"></div>
+        <div class="relative z-10 flex flex-col w-full">
+          <span class="text-[10px] text-indigo-200/70 font-semibold tracking-wider uppercase mb-1">当前核心词 (点击随时听发音)</span>
+          <div class="flex items-center gap-2 mb-3">
+            <h2 id="game-core-word" class="text-3xl font-extrabold tracking-tight cursor-pointer hover:opacity-90 active:scale-95 transition-all"></h2>
+            <button id="game-core-speak" class="p-1 rounded-full bg-white/10 hover:bg-white/20 text-indigo-200 hover:text-white transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 010 12.728M16.463 8.288a5.25 5.25 0 010 7.424M6.75 8.25l4.72-4.72a.75.75 0 011.28.53v15.88a.75.75 0 01-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.01 9.01 0 012.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75z"/>
+              </svg>
+            </button>
+            <span id="game-core-phonetic" class="text-indigo-200 text-sm font-medium tracking-wide"></span>
+          </div>
+          <p id="game-core-translation" class="text-slate-100/90 text-sm font-medium mb-3"></p>
+          <div class="w-full">
+            <div id="game-syllables-container" class="flex flex-wrap gap-2.5"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 挑战区标题 + 换一批按钮同行 -->
+      <div class="flex flex-col gap-1 mb-4 pl-1">
+        <div class="flex items-center justify-between">
+          <div class="flex items-baseline gap-2">
+            <h3 id="relation-title" class="text-base font-extrabold text-slate-800">音节挑战</h3>
+            <span id="game-inline-progress" class="text-sm font-bold text-slate-500">(0/0)</span>
+          </div>
+          <button id="btn-next-batch" onclick="loadNextBatch()" class="hidden px-3 py-1 bg-slate-100 hover:bg-slate-200 text-slate-500 font-semibold text-xs rounded-lg transition-all flex items-center gap-1">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-3.5 h-3.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99"/>
+            </svg>
+            换一批
+          </button>
+        </div>
+        <p class="text-[11px] text-slate-400 font-medium">点击左侧英文卡片，可立刻播放标准真人美式发音！</p>
+      </div>
+
+      <!-- 配对区 -->
+      <div class="flex justify-between items-center px-1 mb-2">
+        <span class="text-[11px] font-bold text-slate-400 tracking-wider">单词 (高频顺序)</span>
+        <span class="text-[11px] font-bold text-slate-400 tracking-wider">中文释义 (乱序)</span>
+      </div>
+      <div class="grid grid-cols-2 gap-3 mb-4">
+        <div id="game-left-col" class="flex flex-col gap-3"></div>
+        <div id="game-right-col" class="flex flex-col gap-3"></div>
+      </div>
+
+      <!-- 通关庆祝 -->
+      <div id="game-win-screen" class="hidden flex justify-center mb-5">
+        <div class="flex gap-4">
+          <button onclick="switchPage('list')" class="px-8 py-3 bg-white text-emerald-700 border border-emerald-200 hover:bg-emerald-100 font-bold text-sm rounded-xl transition-all shadow-sm">返回列表</button>
+          <button id="btn-next-word" onclick="loadNextWord()" class="px-8 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm rounded-xl transition-all shadow-md">下一个</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="mt-2 text-center flex flex-col items-center justify-center">
+      <p class="text-[10px] text-slate-300">音节配对大师 · 尝鲜版v1 · 拼读学习密码</p>
+    </footer>
+  </main>
+
+  <!-- Toast -->
+  <div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 bg-slate-900/95 text-white text-xs px-4 py-2.5 rounded-full shadow-xl opacity-0 pointer-events-none transition-all duration-300 flex items-center gap-2 z-50">
+    <span id="toast-icon">💡</span><span id="toast-text"></span>
+  </div>
+
+  <!-- 外部词库 -->
+  <script src="words.js"></script>
+
+  <script>
+    // ============================================================
+    // 状态变量
+    // ============================================================
+    let currentLevel = '全部';
+    let currentLetter = '全部';
+    let currentSearchQuery = '';
+    let currentWordObj = null;
+    let currentSyllableKey = null;
+    let allChallengeWords = [];   // 当前音节所有可用挑战词
+    let currentBatchIndex = 0;    // 当前批次起始索引
+    const BATCH_SIZE = 5;
+    let leftCardsData = [];
+    let rightCardsData = [];
+    let selectedLeftId = null;
+    let selectedRightId = null;
+    let matchedPairs = new Set();
+    let audioCtx = null;
+    let ttsAudio = null;
+
+    // ============================================================
+    // 筛选逻辑
+    // ============================================================
+    const levels = ['全部', '小学', '初中', '高中', '四级', '雅思', '托福', '托业'];
+    // 有数据的难度
+    const availableLevels = new Set(gameData.map(w => w.level || '小学'));
+
+    function getFilteredWords() {
+      return gameData.filter(w => {
+        const wordLevel = w.level || '小学';
+        const matchLevel = currentLevel === '全部' || wordLevel === currentLevel;
+        const matchLetter = currentLetter === '全部' || w.word.toLowerCase().startsWith(currentLetter.toLowerCase());
+        const matchSearch = !currentSearchQuery || w.word.toLowerCase().includes(currentSearchQuery.toLowerCase());
+        return matchLevel && matchLetter && matchSearch;
+      });
+    }
+
+    function filterWords() {
+      currentSearchQuery = document.getElementById('search-input').value.trim();
+      renderWordList();
+    }
+
+    function setLevel(level) {
+      if (!availableLevels.has(level) && level !== '全部') return;
+      currentLevel = level;
+      renderLevelFilter();
+      renderAlphabetFilter();
+      renderWordList();
+    }
+
+    function setLetter(letter) {
+      currentLetter = letter;
+      renderAlphabetFilter();
+      renderWordList();
+    }
+
+    function renderLevelFilter() {
+      const container = document.getElementById('level-filter');
+      container.innerHTML = '';
+      levels.forEach(level => {
+        const hasData = level === '全部' || availableLevels.has(level);
+        const isActive = currentLevel === level;
+        const btn = document.createElement('button');
+        btn.className = [
+          'px-3 py-1 text-xs font-bold rounded-full whitespace-nowrap transition-colors flex-shrink-0',
+          isActive ? 'bg-brand-purpleAccent text-white shadow-sm' :
+          hasData ? 'bg-slate-100 text-slate-500 hover:bg-slate-200' :
+          'bg-slate-50 text-slate-300 cursor-not-allowed'
+        ].join(' ');
+        btn.textContent = level;
+        if (hasData) btn.onclick = () => setLevel(level);
+        container.appendChild(btn);
+      });
+    }
+
+    function renderAlphabetFilter() {
+      const filtered = gameData.filter(w => {
+        const wordLevel = w.level || '小学';
+        return currentLevel === '全部' || wordLevel === currentLevel;
+      });
+      const letters = new Set(filtered.map(w => w.word[0].toUpperCase()));
+      const allLetters = ['全部', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').filter(l => letters.has(l))];
+
+      const container = document.getElementById('alphabet-container');
+      container.innerHTML = '';
+      allLetters.forEach(letter => {
+        const isActive = currentLetter === letter;
+        const btn = document.createElement('button');
+        btn.className = [
+          'px-3 py-1 text-xs font-bold rounded-full whitespace-nowrap transition-colors flex-shrink-0',
+          isActive ? 'bg-brand-purpleAccent text-white shadow-sm' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+        ].join(' ');
+        btn.textContent = letter;
+        btn.onclick = () => setLetter(letter);
+        container.appendChild(btn);
+      });
+    }
+
+    function renderWordList() {
+      const filtered = getFilteredWords();
+      const container = document.getElementById('words-card-list');
+      const emptyState = document.getElementById('empty-state');
+      const badge = document.getElementById('list-count-badge');
+
+      badge.textContent = `${filtered.length} 词`;
+      container.innerHTML = '';
+
+      if (filtered.length === 0) {
+        emptyState.classList.remove('hidden');
+        return;
+      }
+      emptyState.classList.add('hidden');
+
+      filtered.forEach(word => {
+        const card = document.createElement('div');
+        card.className = 'bg-white border border-slate-100 rounded-2xl p-4 shadow-sm hover:shadow-md hover:border-brand-purpleAccent/30 transition-all cursor-pointer active:scale-[0.98]';
+        card.onclick = () => selectWordChallenge(word);
+
+        const syllableHtml = (word.syllables || []).map(s =>
+          `<span class="px-2 py-0.5 bg-brand-purpleLight text-brand-purpleAccent text-xs font-bold rounded-md">${s.text}</span>`
+        ).join('<span class="text-slate-300 text-xs">·</span>');
+
+        const levelColor = 'bg-green-100 text-green-600';
+
+        card.innerHTML = `
+          <div class="flex items-start justify-between mb-2">
+            <div>
+              <h3 class="text-lg font-extrabold text-slate-800 tracking-tight">${word.word}</h3>
+              <p class="text-xs text-slate-400 font-medium">${word.phonetic || ''}</p>
+            </div>
+            <span class="text-[10px] font-bold px-2 py-0.5 rounded-full ${levelColor}">${word.level || '小学'}</span>
+          </div>
+          <p class="text-sm text-slate-600 font-medium mb-3">${word.translation}</p>
+          <div class="flex items-center flex-wrap gap-1.5">${syllableHtml}</div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    // ============================================================
+    // 游戏页面
+    // ============================================================
+    function switchPage(page) {
+      document.getElementById('page-list').classList.toggle('hidden', page !== 'list');
+      document.getElementById('page-list').classList.toggle('flex', page === 'list');
+      document.getElementById('page-game').classList.toggle('hidden', page !== 'game');
+      document.getElementById('page-game').classList.toggle('flex', page === 'game');
+    }
+
+    function selectWordChallenge(wordObj) {
+      currentWordObj = wordObj;
+      currentSyllableKey = null;
+      switchPage('game');
+
+      document.getElementById('game-core-word').textContent = wordObj.word;
+      document.getElementById('game-core-phonetic').textContent = wordObj.phonetic || '';
+      document.getElementById('game-core-translation').textContent = '释义：' + wordObj.translation;
+      document.getElementById('game-win-screen').classList.add('hidden');
+
+      document.getElementById('game-core-word').onclick = () => speak(wordObj.word, 'en-US');
+      document.getElementById('game-core-speak').onclick = () => speak(wordObj.word, 'en-US');
+
+      renderSyllableButtons(wordObj);
+
+      // 自动默认选中第一个音节
+      if (wordObj.syllables && wordObj.syllables.length > 0) {
+        const firstSyl = wordObj.syllables[0];
+        loadSyllableChallenge(wordObj, firstSyl.text);
+      }
+    }
+
+    function renderSyllableButtons(wordObj) {
+      const container = document.getElementById('game-syllables-container');
+      container.innerHTML = '';
+      (wordObj.syllables || []).forEach((syl, idx) => {
+        const btn = document.createElement('button');
+        btn.id = `syl-btn-${idx}`;
+        const isActive = currentSyllableKey === syl.text;
+        btn.className = isActive
+          ? 'px-3 py-1.5 bg-brand-accentYellow text-brand-darkBlue text-sm font-bold rounded-lg transition-all active:scale-95 border border-brand-accentYellow'
+          : 'px-3 py-1.5 bg-white/20 hover:bg-white/30 text-white text-sm font-bold rounded-lg transition-all active:scale-95 border border-white/20';
+        btn.textContent = syl.text;
+        btn.onclick = () => {
+          speak(syl, 'en-US');
+          loadSyllableChallenge(wordObj, syl.text);
+        };
+        container.appendChild(btn);
+      });
+    }
+
+    // ============================================================
+    // 音节挑战 & 高亮逻辑
+    // ============================================================
+    function buildHighlightedWord(enWord, syllableText) {
+      // 找到扩展词在词库里的音节数据，定位该音节在单词中的精确起止位置
+      const lowerSyl = syllableText.toLowerCase();
+
+      // 从词库中找到这个词的音节数组
+      const wordData = gameData.find(w => w.word.toLowerCase() === enWord.toLowerCase());
+      if (!wordData || !wordData.syllables) return enWord;
+
+      // 找到匹配音节的索引
+      const matchIdx = wordData.syllables.findIndex(s => s.text.toLowerCase() === lowerSyl);
+      if (matchIdx === -1) return enWord;
+
+      // 计算该音节在单词中的起始字符位置
+      let startPos = 0;
+      for (let i = 0; i < matchIdx; i++) {
+        startPos += wordData.syllables[i].text.length;
+      }
+      const sylLen = wordData.syllables[matchIdx].text.length;
+
+      // 只在精确位置加高亮
+      const before = enWord.substring(0, startPos);
+      const highlighted = enWord.substring(startPos, startPos + sylLen);
+      const after = enWord.substring(startPos + sylLen);
+      return `${before}<span class="highlight-letter">${highlighted}</span>${after}`;
+    }
+
+    function findAllChallengeWords(wordObj, syllableText) {
+      const sylLower = syllableText.toLowerCase();
+      const results = [];
+
+      gameData.forEach(w => {
+        // 排除当前核心词本身
+        if (w.word.toLowerCase() === wordObj.word.toLowerCase()) return;
+        const hasExactSyllable = (w.syllables || []).some(s => s.text.toLowerCase() === sylLower);
+        if (hasExactSyllable && !results.find(r => r.en === w.word)) {
+          results.push({ en: w.word, zh: w.translation });
+        }
+      });
+
+      return results;
+    }
+
+    function loadSyllableChallenge(wordObj, syllableText) {
+      currentSyllableKey = syllableText;
+      currentBatchIndex = 0;
+      allChallengeWords = findAllChallengeWords(wordObj, syllableText);
+
+      document.getElementById('relation-title').textContent = `音节「${syllableText}」挑战`;
+      document.getElementById('game-win-screen').classList.add('hidden');
+
+      // 更新音节按钮选中态
+      renderSyllableButtons(wordObj);
+
+      renderBatch();
+    }
+
+    function renderBatch() {
+      const batch = allChallengeWords.slice(currentBatchIndex, currentBatchIndex + BATCH_SIZE);
+      if (batch.length === 0) {
+        currentBatchIndex = 0;
+        renderBatch();
+        return;
+      }
+
+      matchedPairs = new Set();
+      selectedLeftId = null;
+      selectedRightId = null;
+      leftCardsData = batch;
+      rightCardsData = [...batch].sort(() => Math.random() - 0.5);
+
+      updateGameProgressBar();
+      renderMatchCards();
+
+      // 换一批按钮可见性
+      const nextBatchBtn = document.getElementById('btn-next-batch');
+      if (allChallengeWords.length > BATCH_SIZE) {
+        nextBatchBtn.classList.remove('hidden');
+        nextBatchBtn.classList.add('flex');
+      } else {
+        nextBatchBtn.classList.add('hidden');
+        nextBatchBtn.classList.remove('flex');
+      }
+    }
+
+    function loadNextBatch() {
+      currentBatchIndex = (currentBatchIndex + BATCH_SIZE) % allChallengeWords.length;
+      // 若剩余不足BATCH_SIZE则从头循环
+      if (currentBatchIndex + BATCH_SIZE > allChallengeWords.length && currentBatchIndex !== 0) {
+        currentBatchIndex = 0;
+      }
+      matchedPairs = new Set();
+      selectedLeftId = null;
+      selectedRightId = null;
+      leftCardsData = allChallengeWords.slice(currentBatchIndex, currentBatchIndex + BATCH_SIZE);
+      rightCardsData = [...leftCardsData].sort(() => Math.random() - 0.5);
+      updateGameProgressBar();
+      renderMatchCards();
+      document.getElementById('game-win-screen').classList.add('hidden');
+    }
+
+    function renderMatchCards() {
+      const leftCol = document.getElementById('game-left-col');
+      const rightCol = document.getElementById('game-right-col');
+      leftCol.innerHTML = '';
+      rightCol.innerHTML = '';
+
+      leftCardsData.forEach((card, index) => {
+        const btn = document.createElement('button');
+        btn.id = `left-${index}`;
+        btn.className = 'w-full text-left bg-white border border-brand-borderLight rounded-xl p-3.5 shadow-sm flex items-center gap-2 min-h-[64px] hover:border-indigo-400 transition-all';
+
+        // 高亮音节字母
+        const highlighted = currentSyllableKey ? buildHighlightedWord(card.en, currentSyllableKey) : card.en;
+        btn.innerHTML = `<span class="text-sm font-bold text-slate-800 leading-tight flex-1">${highlighted}</span>`;
+        btn.onclick = () => selectLeftCard(index, card.en);
+        leftCol.appendChild(btn);
+      });
+
+      rightCardsData.forEach((card, index) => {
+        const btn = document.createElement('button');
+        btn.id = `right-${index}`;
+        btn.className = 'w-full text-left bg-white border border-brand-borderLight rounded-xl p-3.5 shadow-sm flex justify-between items-center relative pr-7 min-h-[64px] hover:border-indigo-400 transition-all';
+        btn.innerHTML = `<span class="text-xs font-semibold text-slate-600 leading-tight">${card.zh}</span><div id="dot-right-${index}" class="w-2 h-2 rounded-full bg-slate-300 absolute right-3 top-1/2 -translate-y-1/2 transition-all"></div>`;
+        btn.onclick = () => selectRightCard(index, card.zh);
+        rightCol.appendChild(btn);
+      });
+    }
+
+    function selectLeftCard(index, text) {
+      if (isLeftMatched(index)) return;
+      speak(text, 'en-US');
+      if (selectedLeftId !== null) {
+        const prev = document.getElementById(`left-${selectedLeftId}`);
+        if (prev && !isLeftMatched(selectedLeftId)) {
+          prev.classList.remove('border-indigo-400', 'bg-indigo-50/40');
+          prev.classList.add('border-brand-borderLight', 'bg-white');
+        }
+      }
+      selectedLeftId = index;
+      const curr = document.getElementById(`left-${index}`);
+      curr.classList.remove('border-brand-borderLight', 'bg-white');
+      curr.classList.add('border-indigo-400', 'bg-indigo-50/40');
+      handleMatchingCheck();
+    }
+
+    function selectRightCard(index, text) {
+      if (isRightMatched(index)) return;
+      if (selectedRightId !== null) {
+        const prev = document.getElementById(`right-${selectedRightId}`);
+        const prevDot = document.getElementById(`dot-right-${selectedRightId}`);
+        if (prev && !isRightMatched(selectedRightId)) {
+          prev.classList.remove('border-indigo-400', 'bg-indigo-50/40');
+          prev.classList.add('border-brand-borderLight', 'bg-white');
+          if (prevDot) prevDot.className = 'w-2 h-2 rounded-full bg-slate-300 absolute right-3 top-1/2 -translate-y-1/2';
+        }
+      }
+      selectedRightId = index;
+      const curr = document.getElementById(`right-${index}`);
+      curr.classList.remove('border-brand-borderLight', 'bg-white');
+      curr.classList.add('border-indigo-400', 'bg-indigo-50/40');
+      const dot = document.getElementById(`dot-right-${index}`);
+      if (dot) dot.className = 'w-2.5 h-2.5 rounded-full bg-indigo-400 absolute right-3 top-1/2 -translate-y-1/2 ring-4 ring-indigo-100';
+      handleMatchingCheck();
+    }
+
+    function handleMatchingCheck() {
+      if (selectedLeftId === null || selectedRightId === null) return;
+      const left = leftCardsData[selectedLeftId];
+      const right = rightCardsData[selectedRightId];
+      const leftEl = document.getElementById(`left-${selectedLeftId}`);
+      const rightEl = document.getElementById(`right-${selectedRightId}`);
+      const dot = document.getElementById(`dot-right-${selectedRightId}`);
+
+      if (left.en === right.en) {
+        matchedPairs.add(`${selectedLeftId}-${selectedRightId}`);
+        leftEl.className = 'w-full text-left bg-emerald-50 border-2 border-emerald-500 rounded-xl p-3.5 shadow-sm flex items-center gap-2 animate-success min-h-[64px]';
+        rightEl.className = 'w-full text-left bg-emerald-50 border-2 border-emerald-500 rounded-xl p-3.5 shadow-sm flex justify-between items-center relative pr-7 animate-success min-h-[64px]';
+        if (dot) dot.className = 'w-2.5 h-2.5 rounded-full bg-emerald-500 absolute right-3 top-1/2 -translate-y-1/2 ring-4 ring-emerald-100';
+        selectedLeftId = null; selectedRightId = null;
+        playSystemBeep(587.33, 'sine', 0.08);
+        updateGameProgressBar();
+        checkWin();
+      } else {
+        const cl = selectedLeftId, cr = selectedRightId;
+        leftEl.classList.add('animate-error'); rightEl.classList.add('animate-error');
+        leftEl.style.borderColor = '#EF4444'; rightEl.style.borderColor = '#EF4444';
+        if (dot) dot.className = 'w-2 h-2 rounded-full bg-rose-500 absolute right-3 top-1/2 -translate-y-1/2 ring-4 ring-rose-100';
+        playSystemBeep(220, 'triangle', 0.25);
+        selectedLeftId = null; selectedRightId = null;
+        setTimeout(() => {
+          leftEl.classList.remove('animate-error'); rightEl.classList.remove('animate-error');
+          if (!isLeftMatched(cl)) {
+            leftEl.style.borderColor = '';
+            leftEl.classList.remove('border-indigo-400', 'bg-indigo-50/40');
+            leftEl.classList.add('border-brand-borderLight', 'bg-white');
+          }
+          if (!isRightMatched(cr)) {
+            rightEl.style.borderColor = '';
+            rightEl.classList.remove('border-indigo-400', 'bg-indigo-50/40');
+            rightEl.classList.add('border-brand-borderLight', 'bg-white');
+            if (dot) dot.className = 'w-2 h-2 rounded-full bg-slate-300 absolute right-3 top-1/2 -translate-y-1/2';
+          }
+        }, 400);
+      }
+    }
+
+    function isLeftMatched(i) { return Array.from(matchedPairs).some(p => p.split('-')[0] === String(i)); }
+    function isRightMatched(i) { return Array.from(matchedPairs).some(p => p.split('-')[1] === String(i)); }
+
+    function updateGameProgressBar() {
+      const t = leftCardsData.length, p = matchedPairs.size;
+      document.getElementById('game-inline-progress').textContent = `(${p}/${t})`;
+    }
+
+    function checkWin() {
+      if (matchedPairs.size === leftCardsData.length && leftCardsData.length > 0) {
+        setTimeout(() => {
+          document.getElementById('game-win-screen').classList.remove('hidden');
+          const currentIndex = gameData.findIndex(w => w.word === currentWordObj.word);
+          const nextBtn = document.getElementById('btn-next-word');
+          nextBtn.classList.toggle('hidden', currentIndex === -1 || currentIndex >= gameData.length - 1);
+          showToast('🏆 该音节挑战全部通关！', '🎉');
+          playSystemBeep(523.25, 'sine', 0.1);
+          setTimeout(() => playSystemBeep(659.25, 'sine', 0.1), 120);
+          setTimeout(() => playSystemBeep(783.99, 'sine', 0.2), 240);
+        }, 500);
+      }
+    }
+
+    function loadNextWord() {
+      if (!currentWordObj) return;
+      const currentIndex = gameData.findIndex(w => w.word === currentWordObj.word);
+      if (currentIndex !== -1 && currentIndex < gameData.length - 1) {
+        selectWordChallenge(gameData[currentIndex + 1]);
+      }
+    }
+
+    // ============================================================
+    // 发音（有道TTS + Web Speech fallback）
+    // ============================================================
+    function speak(input, lang) {
+      if (typeof input === 'object' && input !== null) {
+        speakWithYoudao(input.text);
+        return;
+      }
+      if (lang === 'en-US' || lang === 'en') {
+        speakWithYoudao(input);
+      } else {
+        speakFallback(input, 'zh-CN');
+      }
+    }
+
+    function speakWithYoudao(word) {
+      try {
+        const url = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(word)}&type=2`;
+        if (!ttsAudio) { ttsAudio = new Audio(); ttsAudio.preload = 'none'; }
+        ttsAudio.pause();
+        ttsAudio.src = url;
+        const p = ttsAudio.play();
+        if (p !== undefined) p.catch(() => speakFallback(word, 'en-US'));
+      } catch(e) { speakFallback(word, 'en-US'); }
+    }
+
+    function speakFallback(text, lang) {
+      try {
+        if (!window.speechSynthesis) return;
+        window.speechSynthesis.cancel();
+        const u = new SpeechSynthesisUtterance(text);
+        u.lang = lang; u.rate = 0.85;
+        window.speechSynthesis.speak(u);
+      } catch(e) {}
+    }
+
+    function playSystemBeep(freq, type, dur) {
+      try {
+        if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+        const osc = audioCtx.createOscillator(), gain = audioCtx.createGain();
+        osc.type = type; osc.frequency.value = freq;
+        gain.gain.setValueAtTime(0.12, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + dur);
+        osc.connect(gain); gain.connect(audioCtx.destination);
+        osc.start(); osc.stop(audioCtx.currentTime + dur);
+      } catch(e) {}
+    }
+
+    let toastTimer = null;
+    function showToast(msg, icon = '💡') {
+      const t = document.getElementById('toast');
+      document.getElementById('toast-icon').textContent = icon;
+      document.getElementById('toast-text').textContent = msg;
+      t.className = t.className.replace('opacity-0 pointer-events-none', 'opacity-100 transform translate-y-[-10px]');
+      if (toastTimer) clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        t.className = t.className.replace('opacity-100 transform translate-y-[-10px]', 'opacity-0 pointer-events-none');
+      }, 2500);
+    }
+
+    // ============================================================
+    // 初始化
+    // ============================================================
+    function init() {
+      renderLevelFilter();
+      renderAlphabetFilter();
+      renderWordList();
+    }
+
+    init();
+  </script>
+</body>
+</html>
