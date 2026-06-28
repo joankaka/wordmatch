@@ -436,8 +436,16 @@
     function renderBatch() {
       const batch = allChallengeWords.slice(currentBatchIndex, currentBatchIndex + BATCH_SIZE);
       if (batch.length === 0) {
-        currentBatchIndex = 0;
-        renderBatch();
+        matchedPairs = new Set();
+        selectedLeftId = null;
+        selectedRightId = null;
+        leftCardsData = [];
+        rightCardsData = [];
+        document.getElementById('game-left-col').innerHTML = '<p class="text-sm text-slate-400 font-medium text-center py-6 col-span-2">该音节暂无拓展词</p>';
+        document.getElementById('game-right-col').innerHTML = '';
+        document.getElementById('game-inline-progress').textContent = '';
+        document.getElementById('btn-next-batch').classList.add('hidden');
+        document.getElementById('btn-next-batch').classList.remove('flex');
         return;
       }
 
