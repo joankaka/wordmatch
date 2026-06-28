@@ -400,12 +400,17 @@
 
     function findAllChallengeWords(wordObj, syllableText) {
       const sylLower = syllableText.toLowerCase();
+      // 找到核心词中该音节对应的IPA发音
+      const targetSound = (wordObj.syllables || []).find(s => s.text.toLowerCase() === sylLower)?.sound;
       const results = [];
 
       gameData.forEach(w => {
         // 排除当前核心词本身
         if (w.word.toLowerCase() === wordObj.word.toLowerCase()) return;
-        const hasExactSyllable = (w.syllables || []).some(s => s.text.toLowerCase() === sylLower);
+        // 同时匹配 text（拼写）和 sound（IPA发音），确保发音相同才配对
+        const hasExactSyllable = (w.syllables || []).some(
+          s => s.text.toLowerCase() === sylLower && s.sound === targetSound
+        );
         if (hasExactSyllable && !results.find(r => r.en === w.word)) {
           results.push({ en: w.word, zh: w.translation });
         }
