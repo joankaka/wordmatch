@@ -28634,8 +28634,8 @@ const gameData = [
         }
       ]
     }
-  };,
-{
+  },
+  {
     "word": "innovation",
     "phonetic": ",ɪnə'veɪʃn/",
     "translation": "创新，革新",
@@ -38188,8 +38188,8 @@ const gameData = [
         }
       ]
     }
-  };,
-{
+  },
+  {
     "word": "schoolbag",
     "phonetic": "/'sku:lbæɡ/",
     "translation": "书包",
