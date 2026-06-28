@@ -1,5 +1,5 @@
 const gameData = [
-  {
+{
     "word": "able",
     "phonetic": "/'eɪbl/",
     "translation": "能够的，有能力的",
@@ -7,11 +7,11 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "ay"
+        "sound": "/eɪ/"
       },
       {
         "text": "ble",
-        "sound": "bul"
+        "sound": "/bəl/"
       }
     ],
     "challenges": {
@@ -93,11 +93,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ab",
-        "sound": "ab"
+        "sound": "/əb/"
       },
       {
         "text": "sorb",
-        "sound": "zorb"
+        "sound": "/zɔːb/"
       }
     ],
     "challenges": {
@@ -179,11 +179,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ab",
-        "sound": "ab"
+        "sound": "/æb/"
       },
       {
         "text": "stract",
-        "sound": "strakt"
+        "sound": "/strækt/"
       }
     ],
     "challenges": {
@@ -265,15 +265,15 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "bun",
-        "sound": "bun"
+        "sound": "/bʌn/"
       },
       {
         "text": "dant",
-        "sound": "dunt"
+        "sound": "/dənt/"
       }
     ],
     "challenges": {
@@ -389,11 +389,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ac",
-        "sound": "ak"
+        "sound": "/ək/"
       },
       {
         "text": "cept",
-        "sound": "sept"
+        "sound": "/sept/"
       }
     ],
     "challenges": {
@@ -475,15 +475,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ac",
-        "sound": "ak"
+        "sound": "/æk/"
       },
       {
         "text": "ci",
-        "sound": "sih"
+        "sound": "/sɪ/"
       },
       {
         "text": "dent",
-        "sound": "dent"
+        "sound": "/dənt/"
       }
     ],
     "challenges": {
@@ -599,15 +599,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ac",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "com",
-        "sound": "kom"
+        "sound": "/kɒm/"
       },
       {
         "text": "plish",
-        "sound": "plish"
+        "sound": "/plɪʃ/"
       }
     ],
     "challenges": {
@@ -723,11 +723,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ac",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "cuse",
-        "sound": "kyooz"
+        "sound": "/kjuːz/"
       }
     ],
     "challenges": {
@@ -809,11 +809,11 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "chieve",
-        "sound": "cheev"
+        "sound": "/tʃiːv/"
       }
     ],
     "challenges": {
@@ -895,15 +895,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ac",
-        "sound": "ak"
+        "sound": "/ək/"
       },
       {
         "text": "know",
-        "sound": "nol"
+        "sound": "/nɒl/"
       },
       {
         "text": "ledge",
-        "sound": "ij"
+        "sound": "/ɪdʒ/"
       }
     ],
     "challenges": {
@@ -1018,11 +1018,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ac",
-        "sound": "ak"
+        "sound": "/æk/"
       },
       {
         "text": "tive",
-        "sound": "tiv"
+        "sound": "/tɪv/"
       }
     ],
     "challenges": {
@@ -1080,11 +1080,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ac",
-        "sound": "ak"
+        "sound": "/æk/"
       },
       {
         "text": "tor",
-        "sound": "ter"
+        "sound": "/tə/"
       }
     ],
     "challenges": {
@@ -1142,11 +1142,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ac",
-        "sound": "ak"
+        "sound": "/æk/"
       },
       {
         "text": "tress",
-        "sound": "tris"
+        "sound": "/trɪs/"
       }
     ],
     "challenges": {
@@ -1205,11 +1205,11 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "dapt",
-        "sound": "dapt"
+        "sound": "/dæpt/"
       }
     ],
     "challenges": {
@@ -1290,11 +1290,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ad",
-        "sound": "ad"
+        "sound": "/æd/"
       },
       {
         "text": "dress",
-        "sound": "dres"
+        "sound": "/dres/"
       }
     ],
     "challenges": {
@@ -1353,15 +1353,15 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "ad"
+        "sound": "/æd/"
       },
       {
         "text": "de",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "quate",
-        "sound": "kwut"
+        "sound": "/kwət/"
       }
     ],
     "challenges": {
@@ -1477,11 +1477,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ad",
-        "sound": "ad"
+        "sound": "/æd/"
       },
       {
         "text": "mire",
-        "sound": "myr"
+        "sound": "/maɪə/"
       }
     ],
     "challenges": {
@@ -1563,11 +1563,11 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "dopt",
-        "sound": "dopt"
+        "sound": "/dɒpt/"
       }
     ],
     "challenges": {
@@ -1648,11 +1648,11 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "ad"
+        "sound": "/æd/"
       },
       {
         "text": "dult",
-        "sound": "dult"
+        "sound": "/dʌlt/"
       }
     ],
     "challenges": {
@@ -1711,15 +1711,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ad",
-        "sound": "ad"
+        "sound": "/æd/"
       },
       {
         "text": "ven",
-        "sound": "ven"
+        "sound": "/ven/"
       },
       {
         "text": "ture",
-        "sound": "cher"
+        "sound": "/tʃə/"
       }
     ],
     "challenges": {
@@ -1834,11 +1834,11 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "fraid",
-        "sound": "frayd"
+        "sound": "/freɪd/"
       }
     ],
     "challenges": {
@@ -1896,15 +1896,15 @@ const gameData = [
     "syllables": [
       {
         "text": "af",
-        "sound": "af"
+        "sound": "/æf/"
       },
       {
         "text": "ter",
-        "sound": "ter"
+        "sound": "/tə/"
       },
       {
         "text": "noon",
-        "sound": "noon"
+        "sound": "/nuːn/"
       }
     ],
     "challenges": {
@@ -1984,11 +1984,11 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "gain",
-        "sound": "gen"
+        "sound": "/ɡen/"
       }
     ],
     "challenges": {
@@ -2046,11 +2046,11 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "gainst",
-        "sound": "genst"
+        "sound": "/ɡenst/"
       }
     ],
     "challenges": {
@@ -2109,15 +2109,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ag",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "gres",
-        "sound": "gres"
+        "sound": "/gres/"
       },
       {
         "text": "sive",
-        "sound": "iv"
+        "sound": "/sɪv/"
       }
     ],
     "challenges": {
@@ -2232,11 +2232,11 @@ const gameData = [
     "syllables": [
       {
         "text": "air",
-        "sound": "air"
+        "sound": "/eə/"
       },
       {
         "text": "port",
-        "sound": "port"
+        "sound": "/pɔːt/"
       }
     ],
     "challenges": {
@@ -2294,11 +2294,11 @@ const gameData = [
     "syllables": [
       {
         "text": "al",
-        "sound": "al"
+        "sound": "/æl/"
       },
       {
         "text": "bum",
-        "sound": "bum"
+        "sound": "/bəm/"
       }
     ],
     "challenges": {
@@ -2356,11 +2356,11 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "like",
-        "sound": "like"
+        "sound": "/laɪk/"
       }
     ],
     "challenges": {
@@ -2418,11 +2418,11 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "live",
-        "sound": "live"
+        "sound": "/laɪv/"
       }
     ],
     "challenges": {
@@ -2481,11 +2481,11 @@ const gameData = [
     "syllables": [
       {
         "text": "al",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "low",
-        "sound": "low"
+        "sound": "/laʊ/"
       }
     ],
     "challenges": {
@@ -2566,11 +2566,11 @@ const gameData = [
     "syllables": [
       {
         "text": "al",
-        "sound": "awl"
+        "sound": "/ɔːl/"
       },
       {
         "text": "most",
-        "sound": "mohst"
+        "sound": "/məʊst/"
       }
     ],
     "challenges": {
@@ -2628,11 +2628,11 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "lone",
-        "sound": "lohn"
+        "sound": "/ləʊn/"
       }
     ],
     "challenges": {
@@ -2690,11 +2690,11 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "long",
-        "sound": "long"
+        "sound": "/lɒŋ/"
       }
     ],
     "challenges": {
@@ -2752,15 +2752,15 @@ const gameData = [
     "syllables": [
       {
         "text": "al",
-        "sound": "awl"
+        "sound": "/ɔːl/"
       },
       {
         "text": "rea",
-        "sound": "red"
+        "sound": "/red/"
       },
       {
         "text": "dy",
-        "sound": "ee"
+        "sound": "/i/"
       }
     ],
     "challenges": {
@@ -2840,11 +2840,11 @@ const gameData = [
     "syllables": [
       {
         "text": "al",
-        "sound": "awl"
+        "sound": "/ɔːl/"
       },
       {
         "text": "so",
-        "sound": "soh"
+        "sound": "/səʊ/"
       }
     ],
     "challenges": {
@@ -2903,11 +2903,11 @@ const gameData = [
     "syllables": [
       {
         "text": "al",
-        "sound": "awl"
+        "sound": "/ɔːl/"
       },
       {
         "text": "though",
-        "sound": "thoh"
+        "sound": "/ðəʊ/"
       }
     ],
     "challenges": {
@@ -2988,11 +2988,11 @@ const gameData = [
     "syllables": [
       {
         "text": "al",
-        "sound": "awl"
+        "sound": "/ɔːl/"
       },
       {
         "text": "ways",
-        "sound": "wayz"
+        "sound": "/weɪz/"
       }
     ],
     "challenges": {
@@ -3051,15 +3051,15 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "ma",
-        "sound": "mayz"
+        "sound": "/meɪz/"
       },
       {
         "text": "zing",
-        "sound": "ing"
+        "sound": "/ɪŋ/"
       }
     ],
     "challenges": {
@@ -3175,15 +3175,15 @@ const gameData = [
     "syllables": [
       {
         "text": "am",
-        "sound": "am"
+        "sound": "/æm/"
       },
       {
         "text": "bi",
-        "sound": "bish"
+        "sound": "/bɪʃ/"
       },
       {
         "text": "tion",
-        "sound": "un"
+        "sound": "/ən/"
       }
     ],
     "challenges": {
@@ -3298,11 +3298,11 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "mong",
-        "sound": "mung"
+        "sound": "/mʌŋ/"
       }
     ],
     "challenges": {
@@ -3361,11 +3361,11 @@ const gameData = [
     "syllables": [
       {
         "text": "an",
-        "sound": "ang"
+        "sound": "/æŋ/"
       },
       {
         "text": "gry",
-        "sound": "gree"
+        "sound": "/ɡri/"
       }
     ],
     "challenges": {
@@ -3446,15 +3446,15 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "an"
+        "sound": "/æn/"
       },
       {
         "text": "ni",
-        "sound": "nuh"
+        "sound": "/nə/"
       },
       {
         "text": "mal",
-        "sound": "mul"
+        "sound": "/məl/"
       }
     ],
     "challenges": {
@@ -3534,11 +3534,11 @@ const gameData = [
     "syllables": [
       {
         "text": "an",
-        "sound": "ang"
+        "sound": "/æŋ/"
       },
       {
         "text": "kle",
-        "sound": "kul"
+        "sound": "/kəl/"
       }
     ],
     "challenges": {
@@ -3597,11 +3597,11 @@ const gameData = [
     "syllables": [
       {
         "text": "an",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "nounce",
-        "sound": "nowns"
+        "sound": "/naʊns/"
       }
     ],
     "challenges": {
@@ -3682,15 +3682,15 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "no",
-        "sound": "nuth"
+        "sound": "/nʌð/"
       },
       {
         "text": "ther",
-        "sound": "ther"
+        "sound": "/ðə/"
       }
     ],
     "challenges": {
@@ -3770,11 +3770,11 @@ const gameData = [
     "syllables": [
       {
         "text": "an",
-        "sound": "an"
+        "sound": "/æn/"
       },
       {
         "text": "swer",
-        "sound": "ser"
+        "sound": "/sə/"
       }
     ],
     "challenges": {
@@ -3833,11 +3833,11 @@ const gameData = [
     "syllables": [
       {
         "text": "anx",
-        "sound": "angk"
+        "sound": "/æŋk/"
       },
       {
         "text": "ious",
-        "sound": "shus"
+        "sound": "/ʃəs/"
       }
     ],
     "challenges": {
@@ -3918,15 +3918,15 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "en"
+        "sound": "/en/"
       },
       {
         "text": "ny",
-        "sound": "ee"
+        "sound": "/i/"
       },
       {
         "text": "one",
-        "sound": "wun"
+        "sound": "/wʌn/"
       }
     ],
     "challenges": {
@@ -4006,15 +4006,15 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "en"
+        "sound": "/en/"
       },
       {
         "text": "ny",
-        "sound": "ee"
+        "sound": "/i/"
       },
       {
         "text": "thing",
-        "sound": "thing"
+        "sound": "/θɪŋ/"
       }
     ],
     "challenges": {
@@ -4094,15 +4094,15 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "en"
+        "sound": "/en/"
       },
       {
         "text": "ny",
-        "sound": "ee"
+        "sound": "/i/"
       },
       {
         "text": "way",
-        "sound": "way"
+        "sound": "/weɪ/"
       }
     ],
     "challenges": {
@@ -4182,15 +4182,15 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "en"
+        "sound": "/en/"
       },
       {
         "text": "ny",
-        "sound": "ee"
+        "sound": "/i/"
       },
       {
         "text": "where",
-        "sound": "wair"
+        "sound": "/weə/"
       }
     ],
     "challenges": {
@@ -4271,11 +4271,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ap",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "peal",
-        "sound": "peel"
+        "sound": "/piːl/"
       }
     ],
     "challenges": {
@@ -4356,11 +4356,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ap",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "pear",
-        "sound": "peer"
+        "sound": "/pɪə/"
       }
     ],
     "challenges": {
@@ -4418,11 +4418,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ap",
-        "sound": "app"
+        "sound": "/æp/"
       },
       {
         "text": "ple",
-        "sound": "pul"
+        "sound": "/pəl/"
       }
     ],
     "challenges": {
@@ -4481,19 +4481,19 @@ const gameData = [
     "syllables": [
       {
         "text": "ap",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "pre",
-        "sound": "pree"
+        "sound": "/priː/"
       },
       {
         "text": "ci",
-        "sound": "shee"
+        "sound": "/ʃi/"
       },
       {
         "text": "ate",
-        "sound": "ayt"
+        "sound": "/eɪt/"
       }
     ],
     "challenges": {
@@ -4643,11 +4643,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ap",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "proach",
-        "sound": "prohch"
+        "sound": "/prəʊtʃ/"
       }
     ],
     "challenges": {
@@ -4729,19 +4729,19 @@ const gameData = [
     "syllables": [
       {
         "text": "ap",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "pro",
-        "sound": "proh"
+        "sound": "/prəʊ/"
       },
       {
         "text": "pri",
-        "sound": "pree"
+        "sound": "/pri/"
       },
       {
         "text": "ate",
-        "sound": "ut"
+        "sound": "/ət/"
       }
     ],
     "challenges": {
@@ -4891,11 +4891,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ap",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "prove",
-        "sound": "proov"
+        "sound": "/pruːv/"
       }
     ],
     "challenges": {
@@ -4976,15 +4976,15 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "air"
+        "sound": "/eə/"
       },
       {
         "text": "re",
-        "sound": "ee"
+        "sound": "/i/"
       },
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       }
     ],
     "challenges": {
@@ -5042,11 +5042,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ar",
-        "sound": "ar"
+        "sound": "/ɑː/"
       },
       {
         "text": "my",
-        "sound": "mee"
+        "sound": "/mi/"
       }
     ],
     "challenges": {
@@ -5104,11 +5104,11 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "round",
-        "sound": "rownd"
+        "sound": "/raʊnd/"
       }
     ],
     "challenges": {
@@ -5167,11 +5167,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ar",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "range",
-        "sound": "raynj"
+        "sound": "/reɪndʒ/"
       }
     ],
     "challenges": {
@@ -5252,11 +5252,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ar",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "rive",
-        "sound": "rive"
+        "sound": "/raɪv/"
       }
     ],
     "challenges": {
@@ -5314,11 +5314,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ar",
-        "sound": "ar"
+        "sound": "/ɑː/"
       },
       {
         "text": "tist",
-        "sound": "tist"
+        "sound": "/tɪst/"
       }
     ],
     "challenges": {
@@ -5376,11 +5376,11 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "sleep",
-        "sound": "sleep"
+        "sound": "/sliːp/"
       }
     ],
     "challenges": {
@@ -5439,11 +5439,11 @@ const gameData = [
     "syllables": [
       {
         "text": "as",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "sist",
-        "sound": "sist"
+        "sound": "/sɪst/"
       }
     ],
     "challenges": {
@@ -5525,19 +5525,19 @@ const gameData = [
     "syllables": [
       {
         "text": "as",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "so",
-        "sound": "soh"
+        "sound": "/səʊ/"
       },
       {
         "text": "ci",
-        "sound": "shee"
+        "sound": "/ʃi/"
       },
       {
         "text": "ate",
-        "sound": "ayt"
+        "sound": "/eɪt/"
       }
     ],
     "challenges": {
@@ -5687,11 +5687,11 @@ const gameData = [
     "syllables": [
       {
         "text": "as",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "sume",
-        "sound": "syoom"
+        "sound": "/sjuːm/"
       }
     ],
     "challenges": {
@@ -5773,15 +5773,15 @@ const gameData = [
     "syllables": [
       {
         "text": "at",
-        "sound": "at"
+        "sound": "/æt/"
       },
       {
         "text": "mos",
-        "sound": "mus"
+        "sound": "/məs/"
       },
       {
         "text": "phere",
-        "sound": "feer"
+        "sound": "/fɪə/"
       }
     ],
     "challenges": {
@@ -5897,15 +5897,15 @@ const gameData = [
     "syllables": [
       {
         "text": "at",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "ten",
-        "sound": "ten"
+        "sound": "/ten/"
       },
       {
         "text": "tion",
-        "sound": "shun"
+        "sound": "/ʃən/"
       }
     ],
     "challenges": {
@@ -6021,15 +6021,15 @@ const gameData = [
     "syllables": [
       {
         "text": "at",
-        "sound": "at"
+        "sound": "/æt/"
       },
       {
         "text": "ti",
-        "sound": "tih"
+        "sound": "/tɪ/"
       },
       {
         "text": "tude",
-        "sound": "tyood"
+        "sound": "/tjuːd/"
       }
     ],
     "challenges": {
@@ -6145,19 +6145,19 @@ const gameData = [
     "syllables": [
       {
         "text": "au",
-        "sound": "aw"
+        "sound": "/ɔː/"
       },
       {
         "text": "thor",
-        "sound": "thor"
+        "sound": "/θɒr/"
       },
       {
         "text": "i",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "ty",
-        "sound": "tee"
+        "sound": "/ti/"
       }
     ],
     "challenges": {
@@ -6306,11 +6306,11 @@ const gameData = [
     "syllables": [
       {
         "text": "au",
-        "sound": "aw"
+        "sound": "/ɔː/"
       },
       {
         "text": "tumn",
-        "sound": "tum"
+        "sound": "/təm/"
       }
     ],
     "challenges": {
@@ -6368,11 +6368,11 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "wake",
-        "sound": "wake"
+        "sound": "/weɪk/"
       }
     ],
     "challenges": {
@@ -6430,11 +6430,11 @@ const gameData = [
     "syllables": [
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "way",
-        "sound": "way"
+        "sound": "/weɪ/"
       }
     ],
     "challenges": {
@@ -6492,11 +6492,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ba",
-        "sound": "bay"
+        "sound": "/beɪ/"
       },
       {
         "text": "by",
-        "sound": "bee"
+        "sound": "/bi/"
       }
     ],
     "challenges": {
@@ -6554,15 +6554,15 @@ const gameData = [
     "syllables": [
       {
         "text": "bad",
-        "sound": "bad"
+        "sound": "/bæd/"
       },
       {
         "text": "min",
-        "sound": "min"
+        "sound": "/mɪn/"
       },
       {
         "text": "ton",
-        "sound": "tun"
+        "sound": "/tən/"
       }
     ],
     "challenges": {
@@ -6643,11 +6643,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ba",
-        "sound": "bal"
+        "sound": "/bæl/"
       },
       {
         "text": "lance",
-        "sound": "luns"
+        "sound": "/ləns/"
       }
     ],
     "challenges": {
@@ -6728,11 +6728,11 @@ const gameData = [
     "syllables": [
       {
         "text": "bam",
-        "sound": "bam"
+        "sound": "/bæm/"
       },
       {
         "text": "boo",
-        "sound": "boo"
+        "sound": "/buː/"
       }
     ],
     "challenges": {
@@ -6790,15 +6790,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ba",
-        "sound": "buh"
+        "sound": "/bə/"
       },
       {
         "text": "na",
-        "sound": "nah"
+        "sound": "/nɑː/"
       },
       {
         "text": "na",
-        "sound": "nuh"
+        "sound": "/nə/"
       }
     ],
     "challenges": {
@@ -6856,11 +6856,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ba",
-        "sound": "bay"
+        "sound": "/beɪ/"
       },
       {
         "text": "sic",
-        "sound": "sik"
+        "sound": "/sɪk/"
       }
     ],
     "challenges": {
@@ -6918,11 +6918,11 @@ const gameData = [
     "syllables": [
       {
         "text": "bas",
-        "sound": "bass"
+        "sound": "/bɑːs/"
       },
       {
         "text": "ket",
-        "sound": "kit"
+        "sound": "/kɪt/"
       }
     ],
     "challenges": {
@@ -6980,15 +6980,15 @@ const gameData = [
     "syllables": [
       {
         "text": "beau",
-        "sound": "byoo"
+        "sound": "/bjuː/"
       },
       {
         "text": "ti",
-        "sound": "tih"
+        "sound": "/tɪ/"
       },
       {
         "text": "ful",
-        "sound": "ful"
+        "sound": "/fəl/"
       }
     ],
     "challenges": {
@@ -7068,11 +7068,11 @@ const gameData = [
     "syllables": [
       {
         "text": "be",
-        "sound": "bih"
+        "sound": "/bɪ/"
       },
       {
         "text": "cause",
-        "sound": "kawz"
+        "sound": "/kɒz/"
       }
     ],
     "challenges": {
@@ -7130,11 +7130,11 @@ const gameData = [
     "syllables": [
       {
         "text": "be",
-        "sound": "bih"
+        "sound": "/bɪ/"
       },
       {
         "text": "come",
-        "sound": "kum"
+        "sound": "/kʌm/"
       }
     ],
     "challenges": {
@@ -7192,11 +7192,11 @@ const gameData = [
     "syllables": [
       {
         "text": "bed",
-        "sound": "bed"
+        "sound": "/bed/"
       },
       {
         "text": "room",
-        "sound": "room"
+        "sound": "/rʊm/"
       }
     ],
     "challenges": {
@@ -7254,11 +7254,11 @@ const gameData = [
     "syllables": [
       {
         "text": "bed",
-        "sound": "bed"
+        "sound": "/bed/"
       },
       {
         "text": "time",
-        "sound": "time"
+        "sound": "/taɪm/"
       }
     ],
     "challenges": {
@@ -7316,11 +7316,11 @@ const gameData = [
     "syllables": [
       {
         "text": "be",
-        "sound": "bih"
+        "sound": "/bɪ/"
       },
       {
         "text": "fore",
-        "sound": "for"
+        "sound": "/fɔː/"
       }
     ],
     "challenges": {
@@ -7378,11 +7378,11 @@ const gameData = [
     "syllables": [
       {
         "text": "be",
-        "sound": "bih"
+        "sound": "/bɪ/"
       },
       {
         "text": "gin",
-        "sound": "gin"
+        "sound": "/ɡɪn/"
       }
     ],
     "challenges": {
@@ -7440,11 +7440,11 @@ const gameData = [
     "syllables": [
       {
         "text": "be",
-        "sound": "bih"
+        "sound": "/bɪ/"
       },
       {
         "text": "hind",
-        "sound": "hynd"
+        "sound": "/haɪnd/"
       }
     ],
     "challenges": {
@@ -7502,11 +7502,11 @@ const gameData = [
     "syllables": [
       {
         "text": "be",
-        "sound": "bih"
+        "sound": "/bɪ/"
       },
       {
         "text": "lieve",
-        "sound": "leev"
+        "sound": "/liːv/"
       }
     ],
     "challenges": {
@@ -7564,11 +7564,11 @@ const gameData = [
     "syllables": [
       {
         "text": "be",
-        "sound": "bih"
+        "sound": "/bɪ/"
       },
       {
         "text": "low",
-        "sound": "loh"
+        "sound": "/ləʊ/"
       }
     ],
     "challenges": {
@@ -7627,15 +7627,15 @@ const gameData = [
     "syllables": [
       {
         "text": "be",
-        "sound": "ben"
+        "sound": "/ben/"
       },
       {
         "text": "ne",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "fit",
-        "sound": "fit"
+        "sound": "/fɪt/"
       }
     ],
     "challenges": {
@@ -7750,11 +7750,11 @@ const gameData = [
     "syllables": [
       {
         "text": "be",
-        "sound": "bih"
+        "sound": "/bɪ/"
       },
       {
         "text": "side",
-        "sound": "syd"
+        "sound": "/saɪd/"
       }
     ],
     "challenges": {
@@ -7812,11 +7812,11 @@ const gameData = [
     "syllables": [
       {
         "text": "be",
-        "sound": "bih"
+        "sound": "/bɪ/"
       },
       {
         "text": "tween",
-        "sound": "tween"
+        "sound": "/twiːn/"
       }
     ],
     "challenges": {
@@ -7874,15 +7874,15 @@ const gameData = [
     "syllables": [
       {
         "text": "bi",
-        "sound": "by"
+        "sound": "/baɪ/"
       },
       {
         "text": "cy",
-        "sound": "sih"
+        "sound": "/sɪ/"
       },
       {
         "text": "cle",
-        "sound": "kul"
+        "sound": "/kəl/"
       }
     ],
     "challenges": {
@@ -7963,11 +7963,11 @@ const gameData = [
     "syllables": [
       {
         "text": "bi",
-        "sound": "bil"
+        "sound": "/bɪl/"
       },
       {
         "text": "llion",
-        "sound": "yun"
+        "sound": "/jən/"
       }
     ],
     "challenges": {
@@ -8048,11 +8048,11 @@ const gameData = [
     "syllables": [
       {
         "text": "birth",
-        "sound": "berth"
+        "sound": "/bɜːθ/"
       },
       {
         "text": "day",
-        "sound": "day"
+        "sound": "/deɪ/"
       }
     ],
     "challenges": {
@@ -8110,11 +8110,11 @@ const gameData = [
     "syllables": [
       {
         "text": "bis",
-        "sound": "biss"
+        "sound": "/bɪs/"
       },
       {
         "text": "cuit",
-        "sound": "kit"
+        "sound": "/kɪt/"
       }
     ],
     "challenges": {
@@ -8172,11 +8172,11 @@ const gameData = [
     "syllables": [
       {
         "text": "bi",
-        "sound": "bit"
+        "sound": "/bɪt/"
       },
       {
         "text": "tter",
-        "sound": "ter"
+        "sound": "/tə/"
       }
     ],
     "challenges": {
@@ -8227,18 +8227,18 @@ const gameData = [
     },
     "level": "小学"
   },
-  {
+{
     "word": "blackboard",
     "phonetic": "/'blækbɔ:d/",
     "translation": "黑板",
     "syllables": [
       {
         "text": "black",
-        "sound": "black"
+        "sound": "/blæk/"
       },
       {
         "text": "board",
-        "sound": "bord"
+        "sound": "/bɔːd/"
       }
     ],
     "challenges": {
@@ -8296,11 +8296,11 @@ const gameData = [
     "syllables": [
       {
         "text": "blan",
-        "sound": "blank"
+        "sound": "/blæŋk/"
       },
       {
         "text": "ket",
-        "sound": "it"
+        "sound": "/ɪt/"
       }
     ],
     "challenges": {
@@ -8358,11 +8358,11 @@ const gameData = [
     "syllables": [
       {
         "text": "blos",
-        "sound": "bloss"
+        "sound": "/blɒs/"
       },
       {
         "text": "som",
-        "sound": "um"
+        "sound": "/əm/"
       }
     ],
     "challenges": {
@@ -8420,11 +8420,11 @@ const gameData = [
     "syllables": [
       {
         "text": "bo",
-        "sound": "bah"
+        "sound": "/bɒ/"
       },
       {
         "text": "dy",
-        "sound": "dee"
+        "sound": "/di/"
       }
     ],
     "challenges": {
@@ -8482,11 +8482,11 @@ const gameData = [
     "syllables": [
       {
         "text": "bo",
-        "sound": "bor"
+        "sound": "/bɒr/"
       },
       {
         "text": "rrow",
-        "sound": "oh"
+        "sound": "/əʊ/"
       }
     ],
     "challenges": {
@@ -8544,11 +8544,11 @@ const gameData = [
     "syllables": [
       {
         "text": "bo",
-        "sound": "bot"
+        "sound": "/bɒt/"
       },
       {
         "text": "ttle",
-        "sound": "ul"
+        "sound": "/əl/"
       }
     ],
     "challenges": {
@@ -8606,11 +8606,11 @@ const gameData = [
     "syllables": [
       {
         "text": "bo",
-        "sound": "bot"
+        "sound": "/bɒt/"
       },
       {
         "text": "ttom",
-        "sound": "um"
+        "sound": "/əm/"
       }
     ],
     "challenges": {
@@ -8668,11 +8668,11 @@ const gameData = [
     "syllables": [
       {
         "text": "bow",
-        "sound": "boh"
+        "sound": "/bəʊ/"
       },
       {
         "text": "ling",
-        "sound": "ling"
+        "sound": "/lɪŋ/"
       }
     ],
     "challenges": {
@@ -8730,11 +8730,11 @@ const gameData = [
     "syllables": [
       {
         "text": "break",
-        "sound": "brek"
+        "sound": "/brek/"
       },
       {
         "text": "fast",
-        "sound": "fust"
+        "sound": "/fəst/"
       }
     ],
     "challenges": {
@@ -8792,15 +8792,15 @@ const gameData = [
     "syllables": [
       {
         "text": "bril",
-        "sound": "bril"
+        "sound": "/brɪl/"
       },
       {
         "text": "li",
-        "sound": "lee"
+        "sound": "/li/"
       },
       {
         "text": "ant",
-        "sound": "unt"
+        "sound": "/ənt/"
       }
     ],
     "challenges": {
@@ -8880,11 +8880,11 @@ const gameData = [
     "syllables": [
       {
         "text": "bro",
-        "sound": "bruth"
+        "sound": "/brʌð/"
       },
       {
         "text": "ther",
-        "sound": "ther"
+        "sound": "/ə/"
       }
     ],
     "challenges": {
@@ -8942,11 +8942,11 @@ const gameData = [
     "syllables": [
       {
         "text": "bu",
-        "sound": "buh"
+        "sound": "/bʌ/"
       },
       {
         "text": "bble",
-        "sound": "bul"
+        "sound": "/bəl/"
       }
     ],
     "challenges": {
@@ -9005,11 +9005,11 @@ const gameData = [
     "syllables": [
       {
         "text": "bu",
-        "sound": "buj"
+        "sound": "/bʌdʒ/"
       },
       {
         "text": "dget",
-        "sound": "jit"
+        "sound": "/ɪt/"
       }
     ],
     "challenges": {
@@ -9090,15 +9090,15 @@ const gameData = [
     "syllables": [
       {
         "text": "bu",
-        "sound": "buf"
+        "sound": "/bʌf/"
       },
       {
         "text": "ffa",
-        "sound": "fuh"
+        "sound": "/ə/"
       },
       {
         "text": "lo",
-        "sound": "loh"
+        "sound": "/ləʊ/"
       }
     ],
     "challenges": {
@@ -9178,11 +9178,11 @@ const gameData = [
     "syllables": [
       {
         "text": "buil",
-        "sound": "bil"
+        "sound": "/bɪl/"
       },
       {
         "text": "ding",
-        "sound": "ding"
+        "sound": "/dɪŋ/"
       }
     ],
     "challenges": {
@@ -9240,11 +9240,11 @@ const gameData = [
     "syllables": [
       {
         "text": "bu",
-        "sound": "buh"
+        "sound": "/bʌ/"
       },
       {
         "text": "tter",
-        "sound": "ter"
+        "sound": "/tə/"
       }
     ],
     "challenges": {
@@ -9302,11 +9302,11 @@ const gameData = [
     "syllables": [
       {
         "text": "bu",
-        "sound": "buh"
+        "sound": "/bʌ/"
       },
       {
         "text": "tton",
-        "sound": "ton"
+        "sound": "/tən/"
       }
     ],
     "challenges": {
@@ -9364,11 +9364,11 @@ const gameData = [
     "syllables": [
       {
         "text": "cab",
-        "sound": "kab"
+        "sound": "/kæb/"
       },
       {
         "text": "bage",
-        "sound": "ij"
+        "sound": "/ɪdʒ/"
       }
     ],
     "challenges": {
@@ -9426,11 +9426,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ca",
-        "sound": "kab"
+        "sound": "/kæb/"
       },
       {
         "text": "bin",
-        "sound": "in"
+        "sound": "/ɪn/"
       }
     ],
     "challenges": {
@@ -9488,11 +9488,11 @@ const gameData = [
     "syllables": [
       {
         "text": "cac",
-        "sound": "kak"
+        "sound": "/kæk/"
       },
       {
         "text": "tus",
-        "sound": "tus"
+        "sound": "/təs/"
       }
     ],
     "challenges": {
@@ -9551,7 +9551,7 @@ const gameData = [
     "syllables": [
       {
         "text": "calm",
-        "sound": "kahm"
+        "sound": "/kɑːm/"
       }
     ],
     "challenges": {
@@ -9598,15 +9598,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ca",
-        "sound": "kam"
+        "sound": "/kæm/"
       },
       {
         "text": "me",
-        "sound": "er"
+        "sound": "/ər/"
       },
       {
         "text": "ra",
-        "sound": "ruh"
+        "sound": "/ə/"
       }
     ],
     "challenges": {
@@ -9686,11 +9686,11 @@ const gameData = [
     "syllables": [
       {
         "text": "can",
-        "sound": "kan"
+        "sound": "/kæn/"
       },
       {
         "text": "dle",
-        "sound": "dul"
+        "sound": "/dəl/"
       }
     ],
     "challenges": {
@@ -9748,11 +9748,11 @@ const gameData = [
     "syllables": [
       {
         "text": "can",
-        "sound": "can"
+        "sound": "/kæn/"
       },
       {
         "text": "dy",
-        "sound": "dee"
+        "sound": "/di/"
       }
     ],
     "challenges": {
@@ -9810,11 +9810,11 @@ const gameData = [
     "syllables": [
       {
         "text": "can",
-        "sound": "kan"
+        "sound": "/kæn/"
       },
       {
         "text": "yon",
-        "sound": "yun"
+        "sound": "/jən/"
       }
     ],
     "challenges": {
@@ -9873,15 +9873,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ca",
-        "sound": "kay"
+        "sound": "/keɪ/"
       },
       {
         "text": "pa",
-        "sound": "puh"
+        "sound": "/pə/"
       },
       {
         "text": "ble",
-        "sound": "bul"
+        "sound": "/bəl/"
       }
     ],
     "challenges": {
@@ -9996,11 +9996,11 @@ const gameData = [
     "syllables": [
       {
         "text": "cap",
-        "sound": "kap"
+        "sound": "/kæp/"
       },
       {
         "text": "tain",
-        "sound": "tin"
+        "sound": "/tɪn/"
       }
     ],
     "challenges": {
@@ -10058,11 +10058,11 @@ const gameData = [
     "syllables": [
       {
         "text": "care",
-        "sound": "kair"
+        "sound": "/keə/"
       },
       {
         "text": "ful",
-        "sound": "ful"
+        "sound": "/fəl/"
       }
     ],
     "challenges": {
@@ -10120,11 +10120,11 @@ const gameData = [
     "syllables": [
       {
         "text": "care",
-        "sound": "kair"
+        "sound": "/keə/"
       },
       {
         "text": "less",
-        "sound": "lis"
+        "sound": "/lɪs/"
       }
     ],
     "challenges": {
@@ -10182,11 +10182,11 @@ const gameData = [
     "syllables": [
       {
         "text": "car",
-        "sound": "kar"
+        "sound": "/kɑː/"
       },
       {
         "text": "pet",
-        "sound": "pit"
+        "sound": "/pɪt/"
       }
     ],
     "challenges": {
@@ -10244,11 +10244,11 @@ const gameData = [
     "syllables": [
       {
         "text": "car",
-        "sound": "kar"
+        "sound": "/kær/"
       },
       {
         "text": "riage",
-        "sound": "ij"
+        "sound": "/ɪdʒ/"
       }
     ],
     "challenges": {
@@ -10306,11 +10306,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ca",
-        "sound": "care"
+        "sound": "/kær/"
       },
       {
         "text": "rrot",
-        "sound": "rot"
+        "sound": "/ət/"
       }
     ],
     "challenges": {
@@ -10368,11 +10368,11 @@ const gameData = [
     "syllables": [
       {
         "text": "cas",
-        "sound": "kass"
+        "sound": "/kɑːs/"
       },
       {
         "text": "tle",
-        "sound": "ul"
+        "sound": "/əl/"
       }
     ],
     "challenges": {
@@ -10430,11 +10430,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ca",
-        "sound": "kat"
+        "sound": "/kæt/"
       },
       {
         "text": "ttle",
-        "sound": "ul"
+        "sound": "/əl/"
       }
     ],
     "challenges": {
@@ -10492,11 +10492,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ceil",
-        "sound": "seel"
+        "sound": "/siːl/"
       },
       {
         "text": "ing",
-        "sound": "ing"
+        "sound": "/ɪŋ/"
       }
     ],
     "challenges": {
@@ -10554,15 +10554,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ce",
-        "sound": "sel"
+        "sound": "/sel/"
       },
       {
         "text": "le",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "brate",
-        "sound": "brayt"
+        "sound": "/breɪt/"
       }
     ],
     "challenges": {
@@ -10642,11 +10642,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ce",
-        "sound": "sel"
+        "sound": "/sel/"
       },
       {
         "text": "llar",
-        "sound": "er"
+        "sound": "/ə/"
       }
     ],
     "challenges": {
@@ -10704,15 +10704,15 @@ const gameData = [
     "syllables": [
       {
         "text": "cen",
-        "sound": "sen"
+        "sound": "/sen/"
       },
       {
         "text": "tu",
-        "sound": "chuh"
+        "sound": "/tʃə/"
       },
       {
         "text": "ry",
-        "sound": "ree"
+        "sound": "/ri/"
       }
     ],
     "challenges": {
@@ -10792,11 +10792,11 @@ const gameData = [
     "syllables": [
       {
         "text": "cer",
-        "sound": "ser"
+        "sound": "/sɜː/"
       },
       {
         "text": "tain",
-        "sound": "tin"
+        "sound": "/tən/"
       }
     ],
     "challenges": {
@@ -10855,11 +10855,11 @@ const gameData = [
     "syllables": [
       {
         "text": "cha",
-        "sound": "chal"
+        "sound": "/tʃæl/"
       },
       {
         "text": "llenge",
-        "sound": "inj"
+        "sound": "/ɪndʒ/"
       }
     ],
     "challenges": {
@@ -10941,15 +10941,15 @@ const gameData = [
     "syllables": [
       {
         "text": "cham",
-        "sound": "cham"
+        "sound": "/tʃæm/"
       },
       {
         "text": "pi",
-        "sound": "pee"
+        "sound": "/pi/"
       },
       {
         "text": "on",
-        "sound": "un"
+        "sound": "/ən/"
       }
     ],
     "challenges": {
@@ -11065,7 +11065,7 @@ const gameData = [
     "syllables": [
       {
         "text": "change",
-        "sound": "chaynj"
+        "sound": "/tʃeɪndʒ/"
       }
     ],
     "challenges": {
@@ -11112,11 +11112,11 @@ const gameData = [
     "syllables": [
       {
         "text": "chan",
-        "sound": "chan"
+        "sound": "/tʃæn/"
       },
       {
         "text": "nel",
-        "sound": "ul"
+        "sound": "/əl/"
       }
     ],
     "challenges": {
@@ -11174,11 +11174,11 @@ const gameData = [
     "syllables": [
       {
         "text": "chap",
-        "sound": "chap"
+        "sound": "/tʃæp/"
       },
       {
         "text": "ter",
-        "sound": "ter"
+        "sound": "/tə/"
       }
     ],
     "challenges": {
@@ -11236,15 +11236,15 @@ const gameData = [
     "syllables": [
       {
         "text": "cha",
-        "sound": "kar"
+        "sound": "/kær/"
       },
       {
         "text": "rac",
-        "sound": "uk"
+        "sound": "/ək/"
       },
       {
         "text": "ter",
-        "sound": "ter"
+        "sound": "/tə/"
       }
     ],
     "challenges": {
@@ -11324,11 +11324,11 @@ const gameData = [
     "syllables": [
       {
         "text": "cheer",
-        "sound": "cheer"
+        "sound": "/tʃɪə/"
       },
       {
         "text": "ful",
-        "sound": "ful"
+        "sound": "/fəl/"
       }
     ],
     "challenges": {
@@ -11386,11 +11386,11 @@ const gameData = [
     "syllables": [
       {
         "text": "chi",
-        "sound": "chick"
+        "sound": "/tʃɪk/"
       },
       {
         "text": "cken",
-        "sound": "en"
+        "sound": "/ən/"
       }
     ],
     "challenges": {
@@ -11449,7 +11449,7 @@ const gameData = [
     "syllables": [
       {
         "text": "choice",
-        "sound": "choys"
+        "sound": "/tʃɔɪs/"
       }
     ],
     "challenges": {
@@ -11496,11 +11496,11 @@ const gameData = [
     "syllables": [
       {
         "text": "cir",
-        "sound": "sir"
+        "sound": "/sɜː/"
       },
       {
         "text": "cle",
-        "sound": "kul"
+        "sound": "/kəl/"
       }
     ],
     "challenges": {
@@ -11559,15 +11559,15 @@ const gameData = [
     "syllables": [
       {
         "text": "cir",
-        "sound": "ser"
+        "sound": "/sɜː/"
       },
       {
         "text": "cum",
-        "sound": "kum"
+        "sound": "/kəm/"
       },
       {
         "text": "stance",
-        "sound": "stans"
+        "sound": "/stæns/"
       }
     ],
     "challenges": {
@@ -11683,15 +11683,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ci",
-        "sound": "sit"
+        "sound": "/sɪt/"
       },
       {
         "text": "ti",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "zen",
-        "sound": "zen"
+        "sound": "/zən/"
       }
     ],
     "challenges": {
@@ -11807,15 +11807,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ci",
-        "sound": "siv"
+        "sound": "/sɪv/"
       },
       {
         "text": "vi",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "lize",
-        "sound": "lyz"
+        "sound": "/laɪz/"
       }
     ],
     "challenges": {
@@ -11931,15 +11931,15 @@ const gameData = [
     "syllables": [
       {
         "text": "cla",
-        "sound": "klar"
+        "sound": "/klær/"
       },
       {
         "text": "ri",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "fy",
-        "sound": "fy"
+        "sound": "/faɪ/"
       }
     ],
     "challenges": {
@@ -12054,11 +12054,11 @@ const gameData = [
     "syllables": [
       {
         "text": "class",
-        "sound": "class"
+        "sound": "/klɑːs/"
       },
       {
         "text": "mate",
-        "sound": "mate"
+        "sound": "/meɪt/"
       }
     ],
     "challenges": {
@@ -12116,11 +12116,11 @@ const gameData = [
     "syllables": [
       {
         "text": "class",
-        "sound": "class"
+        "sound": "/klɑːs/"
       },
       {
         "text": "room",
-        "sound": "room"
+        "sound": "/rʊm/"
       }
     ],
     "challenges": {
@@ -12178,11 +12178,11 @@ const gameData = [
     "syllables": [
       {
         "text": "cle",
-        "sound": "clev"
+        "sound": "/klev/"
       },
       {
         "text": "ver",
-        "sound": "ver"
+        "sound": "/ə/"
       }
     ],
     "challenges": {
@@ -12240,11 +12240,11 @@ const gameData = [
     "syllables": [
       {
         "text": "co",
-        "sound": "caw"
+        "sound": "/kɒ/"
       },
       {
         "text": "ffee",
-        "sound": "fee"
+        "sound": "/fi/"
       }
     ],
     "challenges": {
@@ -12303,19 +12303,19 @@ const gameData = [
     "syllables": [
       {
         "text": "col",
-        "sound": "kuh"
+        "sound": "/kə/"
       },
       {
         "text": "la",
-        "sound": "lab"
+        "sound": "/læb/"
       },
       {
         "text": "bo",
-        "sound": "er"
+        "sound": "/ə/"
       },
       {
         "text": "rate",
-        "sound": "ayt"
+        "sound": "/reɪt/"
       }
     ],
     "challenges": {
@@ -12465,11 +12465,11 @@ const gameData = [
     "syllables": [
       {
         "text": "col",
-        "sound": "kuh"
+        "sound": "/kə/"
       },
       {
         "text": "lect",
-        "sound": "lekt"
+        "sound": "/lekt/"
       }
     ],
     "challenges": {
@@ -12551,19 +12551,19 @@ const gameData = [
     "syllables": [
       {
         "text": "com",
-        "sound": "kuh"
+        "sound": "/kə/"
       },
       {
         "text": "mu",
-        "sound": "myoo"
+        "sound": "/mjuː/"
       },
       {
         "text": "ni",
-        "sound": "nih"
+        "sound": "/nɪ/"
       },
       {
         "text": "cate",
-        "sound": "kayt"
+        "sound": "/keɪt/"
       }
     ],
     "challenges": {
@@ -12713,19 +12713,19 @@ const gameData = [
     "syllables": [
       {
         "text": "com",
-        "sound": "kuh"
+        "sound": "/kə/"
       },
       {
         "text": "mu",
-        "sound": "myoo"
+        "sound": "/mjuː/"
       },
       {
         "text": "ni",
-        "sound": "nuh"
+        "sound": "/nə/"
       },
       {
         "text": "ty",
-        "sound": "tee"
+        "sound": "/ti/"
       }
     ],
     "challenges": {
@@ -12875,11 +12875,11 @@ const gameData = [
     "syllables": [
       {
         "text": "com",
-        "sound": "kum"
+        "sound": "/kəm/"
       },
       {
         "text": "pare",
-        "sound": "pair"
+        "sound": "/peə/"
       }
     ],
     "challenges": {
@@ -12961,11 +12961,11 @@ const gameData = [
     "syllables": [
       {
         "text": "com",
-        "sound": "kum"
+        "sound": "/kəm/"
       },
       {
         "text": "pete",
-        "sound": "peet"
+        "sound": "/piːt/"
       }
     ],
     "challenges": {
@@ -13047,11 +13047,11 @@ const gameData = [
     "syllables": [
       {
         "text": "com",
-        "sound": "kum"
+        "sound": "/kəm/"
       },
       {
         "text": "plete",
-        "sound": "pleet"
+        "sound": "/pliːt/"
       }
     ],
     "challenges": {
@@ -13133,15 +13133,15 @@ const gameData = [
     "syllables": [
       {
         "text": "com",
-        "sound": "kum"
+        "sound": "/kəm/"
       },
       {
         "text": "po",
-        "sound": "poh"
+        "sound": "/pəʊ/"
       },
       {
         "text": "nent",
-        "sound": "nunt"
+        "sound": "/nənt/"
       }
     ],
     "challenges": {
@@ -13256,15 +13256,15 @@ const gameData = [
     "syllables": [
       {
         "text": "com",
-        "sound": "kum"
+        "sound": "/kəm/"
       },
       {
         "text": "pu",
-        "sound": "pyoo"
+        "sound": "/pjuː/"
       },
       {
         "text": "ter",
-        "sound": "ter"
+        "sound": "/tə/"
       }
     ],
     "challenges": {
@@ -13345,15 +13345,15 @@ const gameData = [
     "syllables": [
       {
         "text": "con",
-        "sound": "kon"
+        "sound": "/kɒn/"
       },
       {
         "text": "cen",
-        "sound": "sun"
+        "sound": "/sən/"
       },
       {
         "text": "trate",
-        "sound": "trayt"
+        "sound": "/treɪt/"
       }
     ],
     "challenges": {
@@ -13469,15 +13469,15 @@ const gameData = [
     "syllables": [
       {
         "text": "con",
-        "sound": "kun"
+        "sound": "/kən/"
       },
       {
         "text": "clu",
-        "sound": "kloo"
+        "sound": "/kluː/"
       },
       {
         "text": "sion",
-        "sound": "zhun"
+        "sound": "/ʒən/"
       }
     ],
     "challenges": {
@@ -13593,15 +13593,15 @@ const gameData = [
     "syllables": [
       {
         "text": "con",
-        "sound": "kon"
+        "sound": "/kɒn/"
       },
       {
         "text": "fi",
-        "sound": "fih"
+        "sound": "/fɪ/"
       },
       {
         "text": "dent",
-        "sound": "dent"
+        "sound": "/dənt/"
       }
     ],
     "challenges": {
@@ -13717,15 +13717,15 @@ const gameData = [
     "syllables": [
       {
         "text": "con",
-        "sound": "kon"
+        "sound": "/kɒn/"
       },
       {
         "text": "se",
-        "sound": "sih"
+        "sound": "/sɪ/"
       },
       {
         "text": "quence",
-        "sound": "kwuns"
+        "sound": "/kwəns/"
       }
     ],
     "challenges": {
@@ -13841,15 +13841,15 @@ const gameData = [
     "syllables": [
       {
         "text": "con",
-        "sound": "kun"
+        "sound": "/kən/"
       },
       {
         "text": "si",
-        "sound": "sid"
+        "sound": "/sɪd/"
       },
       {
         "text": "der",
-        "sound": "er"
+        "sound": "/ə/"
       }
     ],
     "challenges": {
@@ -13965,15 +13965,15 @@ const gameData = [
     "syllables": [
       {
         "text": "con",
-        "sound": "kon"
+        "sound": "/kɒn/"
       },
       {
         "text": "sti",
-        "sound": "stih"
+        "sound": "/stɪ/"
       },
       {
         "text": "tute",
-        "sound": "tyoot"
+        "sound": "/tjuːt/"
       }
     ],
     "challenges": {
@@ -14089,11 +14089,11 @@ const gameData = [
     "syllables": [
       {
         "text": "con",
-        "sound": "kun"
+        "sound": "/kən/"
       },
       {
         "text": "tain",
-        "sound": "tayn"
+        "sound": "/teɪn/"
       }
     ],
     "challenges": {
@@ -14175,23 +14175,23 @@ const gameData = [
     "syllables": [
       {
         "text": "con",
-        "sound": "kun"
+        "sound": "/kən/"
       },
       {
         "text": "tem",
-        "sound": "tem"
+        "sound": "/tem/"
       },
       {
         "text": "po",
-        "sound": "puh"
+        "sound": "/pə/"
       },
       {
         "text": "ra",
-        "sound": "ruh"
+        "sound": "/rə/"
       },
       {
         "text": "ry",
-        "sound": "ree"
+        "sound": "/ri/"
       }
     ],
     "challenges": {
@@ -14375,15 +14375,15 @@ const gameData = [
     "syllables": [
       {
         "text": "con",
-        "sound": "kun"
+        "sound": "/kən/"
       },
       {
         "text": "tin",
-        "sound": "tin"
+        "sound": "/tɪn/"
       },
       {
         "text": "ue",
-        "sound": "yoo"
+        "sound": "/juː/"
       }
     ],
     "challenges": {
@@ -14499,11 +14499,11 @@ const gameData = [
     "syllables": [
       {
         "text": "con",
-        "sound": "kon"
+        "sound": "/kɒn/"
       },
       {
         "text": "tract",
-        "sound": "trakt"
+        "sound": "/trækt/"
       }
     ],
     "challenges": {
@@ -14585,19 +14585,19 @@ const gameData = [
     "syllables": [
       {
         "text": "con",
-        "sound": "kon"
+        "sound": "/kɒn/"
       },
       {
         "text": "tri",
-        "sound": "trih"
+        "sound": "/trɪ/"
       },
       {
         "text": "bu",
-        "sound": "byoo"
+        "sound": "/bjuː/"
       },
       {
         "text": "tion",
-        "sound": "shun"
+        "sound": "/ʃən/"
       }
     ],
     "challenges": {
@@ -14747,11 +14747,11 @@ const gameData = [
     "syllables": [
       {
         "text": "con",
-        "sound": "kun"
+        "sound": "/kən/"
       },
       {
         "text": "trol",
-        "sound": "trohl"
+        "sound": "/trəʊl/"
       }
     ],
     "challenges": {
@@ -14833,19 +14833,19 @@ const gameData = [
     "syllables": [
       {
         "text": "con",
-        "sound": "kon"
+        "sound": "/kɒn/"
       },
       {
         "text": "tro",
-        "sound": "truh"
+        "sound": "/trə/"
       },
       {
         "text": "ver",
-        "sound": "ver"
+        "sound": "/vɜː/"
       },
       {
         "text": "sy",
-        "sound": "see"
+        "sound": "/si/"
       }
     ],
     "challenges": {
@@ -14994,11 +14994,11 @@ const gameData = [
     "syllables": [
       {
         "text": "coo",
-        "sound": "kook"
+        "sound": "/kʊ/"
       },
       {
         "text": "kie",
-        "sound": "ee"
+        "sound": "/ki/"
       }
     ],
     "challenges": {
@@ -15057,19 +15057,19 @@ const gameData = [
     "syllables": [
       {
         "text": "cor",
-        "sound": "kor"
+        "sound": "/kɔː/"
       },
       {
         "text": "po",
-        "sound": "puh"
+        "sound": "/pə/"
       },
       {
         "text": "ra",
-        "sound": "ray"
+        "sound": "/reɪ/"
       },
       {
         "text": "tion",
-        "sound": "shun"
+        "sound": "/ʃən/"
       }
     ],
     "challenges": {
@@ -15219,11 +15219,11 @@ const gameData = [
     "syllables": [
       {
         "text": "cor",
-        "sound": "kuh"
+        "sound": "/kə/"
       },
       {
         "text": "rect",
-        "sound": "rekt"
+        "sound": "/rekt/"
       }
     ],
     "challenges": {
@@ -15305,15 +15305,15 @@ const gameData = [
     "syllables": [
       {
         "text": "cor",
-        "sound": "kor"
+        "sound": "/kɒr/"
       },
       {
         "text": "re",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "spond",
-        "sound": "spond"
+        "sound": "/spɒnd/"
       }
     ],
     "challenges": {
@@ -15429,11 +15429,11 @@ const gameData = [
     "syllables": [
       {
         "text": "count",
-        "sound": "kownt"
+        "sound": "/kaʊnt/"
       },
       {
         "text": "less",
-        "sound": "lis"
+        "sound": "/lɪs/"
       }
     ],
     "challenges": {
@@ -15515,11 +15515,11 @@ const gameData = [
     "syllables": [
       {
         "text": "cou",
-        "sound": "kur"
+        "sound": "/kʌr/"
       },
       {
         "text": "rage",
-        "sound": "ij"
+        "sound": "/ɪdʒ/"
       }
     ],
     "challenges": {
@@ -15600,11 +15600,11 @@ const gameData = [
     "syllables": [
       {
         "text": "cray",
-        "sound": "cray"
+        "sound": "/kreɪ/"
       },
       {
         "text": "on",
-        "sound": "on"
+        "sound": "/ən/"
       }
     ],
     "challenges": {
@@ -15663,11 +15663,11 @@ const gameData = [
     "syllables": [
       {
         "text": "cre",
-        "sound": "kree"
+        "sound": "/kriː/"
       },
       {
         "text": "ate",
-        "sound": "ayt"
+        "sound": "/eɪt/"
       }
     ],
     "challenges": {
@@ -15749,23 +15749,23 @@ const gameData = [
     "syllables": [
       {
         "text": "cre",
-        "sound": "kree"
+        "sound": "/kriː/"
       },
       {
         "text": "a",
-        "sound": "ay"
+        "sound": "/eɪ/"
       },
       {
         "text": "tiv",
-        "sound": "tiv"
+        "sound": "/tɪv/"
       },
       {
         "text": "i",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "ty",
-        "sound": "tee"
+        "sound": "/ti/"
       }
     ],
     "challenges": {
@@ -15949,15 +15949,15 @@ const gameData = [
     "syllables": [
       {
         "text": "cri",
-        "sound": "krit"
+        "sound": "/krɪt/"
       },
       {
         "text": "ti",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "cal",
-        "sound": "kul"
+        "sound": "/kəl/"
       }
     ],
     "challenges": {
@@ -16073,11 +16073,11 @@ const gameData = [
     "syllables": [
       {
         "text": "cul",
-        "sound": "kul"
+        "sound": "/kʌl/"
       },
       {
         "text": "ture",
-        "sound": "cher"
+        "sound": "/tʃə/"
       }
     ],
     "challenges": {
@@ -16159,23 +16159,23 @@ const gameData = [
     "syllables": [
       {
         "text": "cu",
-        "sound": "kyoor"
+        "sound": "/kjʊə/"
       },
       {
         "text": "ri",
-        "sound": "ee"
+        "sound": "/ri/"
       },
       {
         "text": "os",
-        "sound": "os"
+        "sound": "/ɒs/"
       },
       {
         "text": "i",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "ty",
-        "sound": "tee"
+        "sound": "/ti/"
       }
     ],
     "challenges": {
@@ -16359,11 +16359,11 @@ const gameData = [
     "syllables": [
       {
         "text": "dead",
-        "sound": "ded"
+        "sound": "/ded/"
       },
       {
         "text": "line",
-        "sound": "lyn"
+        "sound": "/laɪn/"
       }
     ],
     "challenges": {
@@ -16445,11 +16445,11 @@ const gameData = [
     "syllables": [
       {
         "text": "dec",
-        "sound": "dek"
+        "sound": "/dek/"
       },
       {
         "text": "ade",
-        "sound": "ayd"
+        "sound": "/eɪd/"
       }
     ],
     "challenges": {
@@ -16531,15 +16531,15 @@ const gameData = [
     "syllables": [
       {
         "text": "de",
-        "sound": "dih"
+        "sound": "/dɪ/"
       },
       {
         "text": "ci",
-        "sound": "sizh"
+        "sound": "/sɪʒ/"
       },
       {
         "text": "sion",
-        "sound": "un"
+        "sound": "/ən/"
       }
     ],
     "challenges": {
@@ -16655,11 +16655,11 @@ const gameData = [
     "syllables": [
       {
         "text": "de",
-        "sound": "dih"
+        "sound": "/dɪ/"
       },
       {
         "text": "clare",
-        "sound": "klair"
+        "sound": "/kleə/"
       }
     ],
     "challenges": {
@@ -16741,15 +16741,15 @@ const gameData = [
     "syllables": [
       {
         "text": "de",
-        "sound": "ded"
+        "sound": "/ded/"
       },
       {
         "text": "di",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "cate",
-        "sound": "kayt"
+        "sound": "/keɪt/"
       }
     ],
     "challenges": {
@@ -16865,11 +16865,11 @@ const gameData = [
     "syllables": [
       {
         "text": "de",
-        "sound": "dih"
+        "sound": "/dɪ/"
       },
       {
         "text": "fend",
-        "sound": "fend"
+        "sound": "/fend/"
       }
     ],
     "challenges": {
@@ -16951,19 +16951,19 @@ const gameData = [
     "syllables": [
       {
         "text": "de",
-        "sound": "def"
+        "sound": "/def/"
       },
       {
         "text": "fi",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "ni",
-        "sound": "nish"
+        "sound": "/nɪʃ/"
       },
       {
         "text": "tion",
-        "sound": "un"
+        "sound": "/ən/"
       }
     ],
     "challenges": {
@@ -17113,19 +17113,19 @@ const gameData = [
     "syllables": [
       {
         "text": "de",
-        "sound": "dih"
+        "sound": "/dɪ/"
       },
       {
         "text": "mo",
-        "sound": "mok"
+        "sound": "/mɒk/"
       },
       {
         "text": "cra",
-        "sound": "ruh"
+        "sound": "/rə/"
       },
       {
         "text": "cy",
-        "sound": "see"
+        "sound": "/si/"
       }
     ],
     "challenges": {
@@ -17275,15 +17275,15 @@ const gameData = [
     "syllables": [
       {
         "text": "de",
-        "sound": "dem"
+        "sound": "/dem/"
       },
       {
         "text": "mon",
-        "sound": "un"
+        "sound": "/ən/"
       },
       {
         "text": "strate",
-        "sound": "strayt"
+        "sound": "/streɪt/"
       }
     ],
     "challenges": {
@@ -17391,7 +17391,7 @@ const gameData = [
       ]
     }
   },
-  {
+{
     "word": "department",
     "phonetic": "/dɪ'pɑːtmənt/",
     "translation": "部门，系",
@@ -17399,15 +17399,15 @@ const gameData = [
     "syllables": [
       {
         "text": "de",
-        "sound": "dih"
+        "sound": "/dɪ/"
       },
       {
         "text": "part",
-        "sound": "part"
+        "sound": "/pɑːrt/"
       },
       {
         "text": "ment",
-        "sound": "munt"
+        "sound": "/mənt/"
       }
     ],
     "challenges": {
@@ -17523,11 +17523,11 @@ const gameData = [
     "syllables": [
       {
         "text": "de",
-        "sound": "dih"
+        "sound": "/dɪ/"
       },
       {
         "text": "pend",
-        "sound": "pend"
+        "sound": "/pend/"
       }
     ],
     "challenges": {
@@ -17609,11 +17609,11 @@ const gameData = [
     "syllables": [
       {
         "text": "de",
-        "sound": "dih"
+        "sound": "/dɪ/"
       },
       {
         "text": "scribe",
-        "sound": "skryb"
+        "sound": "/skraɪb/"
       }
     ],
     "challenges": {
@@ -17695,11 +17695,11 @@ const gameData = [
     "syllables": [
       {
         "text": "de",
-        "sound": "dih"
+        "sound": "/dɪ/"
       },
       {
         "text": "sign",
-        "sound": "zyn"
+        "sound": "/zaɪn/"
       }
     ],
     "challenges": {
@@ -17781,15 +17781,15 @@ const gameData = [
     "syllables": [
       {
         "text": "de",
-        "sound": "dih"
+        "sound": "/dɪ/"
       },
       {
         "text": "ve",
-        "sound": "vel"
+        "sound": "/vɛ/"
       },
       {
         "text": "lop",
-        "sound": "up"
+        "sound": "/ləp/"
       }
     ],
     "challenges": {
@@ -17905,15 +17905,15 @@ const gameData = [
     "syllables": [
       {
         "text": "di",
-        "sound": "dif"
+        "sound": "/dɪf/"
       },
       {
         "text": "ffe",
-        "sound": "er"
+        "sound": "/ə/"
       },
       {
         "text": "rent",
-        "sound": "rent"
+        "sound": "/rənt/"
       }
     ],
     "challenges": {
@@ -18029,15 +18029,15 @@ const gameData = [
     "syllables": [
       {
         "text": "di",
-        "sound": "dif"
+        "sound": "/dɪf/"
       },
       {
         "text": "fi",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "cult",
-        "sound": "kult"
+        "sound": "/kʌlt/"
       }
     ],
     "challenges": {
@@ -18152,11 +18152,11 @@ const gameData = [
     "syllables": [
       {
         "text": "di",
-        "sound": "dih"
+        "sound": "/dɪ/"
       },
       {
         "text": "nner",
-        "sound": "ner"
+        "sound": "/nər/"
       }
     ],
     "challenges": {
@@ -18215,15 +18215,15 @@ const gameData = [
     "syllables": [
       {
         "text": "dis",
-        "sound": "dih"
+        "sound": "/dɪs/"
       },
       {
         "text": "co",
-        "sound": "kuv"
+        "sound": "/kʌ/"
       },
       {
         "text": "ver",
-        "sound": "er"
+        "sound": "/vər/"
       }
     ],
     "challenges": {
@@ -18339,11 +18339,11 @@ const gameData = [
     "syllables": [
       {
         "text": "dis",
-        "sound": "dih"
+        "sound": "/dɪs/"
       },
       {
         "text": "cuss",
-        "sound": "kus"
+        "sound": "/kʌs/"
       }
     ],
     "challenges": {
@@ -18425,11 +18425,11 @@ const gameData = [
     "syllables": [
       {
         "text": "dis",
-        "sound": "dis"
+        "sound": "/dɪs/"
       },
       {
         "text": "tance",
-        "sound": "tuns"
+        "sound": "/təns/"
       }
     ],
     "challenges": {
@@ -18511,11 +18511,11 @@ const gameData = [
     "syllables": [
       {
         "text": "dis",
-        "sound": "dih"
+        "sound": "/dɪs/"
       },
       {
         "text": "tinct",
-        "sound": "tinkt"
+        "sound": "/tɪŋkt/"
       }
     ],
     "challenges": {
@@ -18597,15 +18597,15 @@ const gameData = [
     "syllables": [
       {
         "text": "dis",
-        "sound": "dis"
+        "sound": "/dɪs/"
       },
       {
         "text": "tri",
-        "sound": "trih"
+        "sound": "/trɪ/"
       },
       {
         "text": "bute",
-        "sound": "byoot"
+        "sound": "/bjuːt/"
       }
     ],
     "challenges": {
@@ -18721,11 +18721,11 @@ const gameData = [
     "syllables": [
       {
         "text": "di",
-        "sound": "dy"
+        "sound": "/daɪ/"
       },
       {
         "text": "verse",
-        "sound": "vers"
+        "sound": "/vɜːrs/"
       }
     ],
     "challenges": {
@@ -18806,11 +18806,11 @@ const gameData = [
     "syllables": [
       {
         "text": "doc",
-        "sound": "doc"
+        "sound": "/dɒk/"
       },
       {
         "text": "tor",
-        "sound": "ter"
+        "sound": "/tər/"
       }
     ],
     "challenges": {
@@ -18868,11 +18868,11 @@ const gameData = [
     "syllables": [
       {
         "text": "do",
-        "sound": "dah"
+        "sound": "/dɑː/"
       },
       {
         "text": "llar",
-        "sound": "ler"
+        "sound": "/lər/"
       }
     ],
     "challenges": {
@@ -18931,15 +18931,15 @@ const gameData = [
     "syllables": [
       {
         "text": "do",
-        "sound": "dom"
+        "sound": "/dɒm/"
       },
       {
         "text": "mi",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "nant",
-        "sound": "nunt"
+        "sound": "/nənt/"
       }
     ],
     "challenges": {
@@ -19054,11 +19054,11 @@ const gameData = [
     "syllables": [
       {
         "text": "don",
-        "sound": "dong"
+        "sound": "/dɒŋ/"
       },
       {
         "text": "key",
-        "sound": "kee"
+        "sound": "/ki/"
       }
     ],
     "challenges": {
@@ -19116,11 +19116,11 @@ const gameData = [
     "syllables": [
       {
         "text": "dra",
-        "sound": "drag"
+        "sound": "/dræɡ/"
       },
       {
         "text": "gon",
-        "sound": "gun"
+        "sound": "/ɡən/"
       }
     ],
     "challenges": {
@@ -19179,15 +19179,15 @@ const gameData = [
     "syllables": [
       {
         "text": "dra",
-        "sound": "druh"
+        "sound": "/drə/"
       },
       {
         "text": "ma",
-        "sound": "mat"
+        "sound": "/mæ/"
       },
       {
         "text": "tic",
-        "sound": "ik"
+        "sound": "/tɪk/"
       }
     ],
     "challenges": {
@@ -19302,11 +19302,11 @@ const gameData = [
     "syllables": [
       {
         "text": "dri",
-        "sound": "drive"
+        "sound": "/draɪv/"
       },
       {
         "text": "ver",
-        "sound": "ver"
+        "sound": "/vər/"
       }
     ],
     "challenges": {
@@ -19365,19 +19365,19 @@ const gameData = [
     "syllables": [
       {
         "text": "e",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "con",
-        "sound": "kon"
+        "sound": "/kɒn/"
       },
       {
         "text": "o",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "my",
-        "sound": "mee"
+        "sound": "/mi/"
       }
     ],
     "challenges": {
@@ -19527,19 +19527,19 @@ const gameData = [
     "syllables": [
       {
         "text": "e",
-        "sound": "ej"
+        "sound": "/ɛ/"
       },
       {
         "text": "du",
-        "sound": "dyoo"
+        "sound": "/djuː/"
       },
       {
         "text": "ca",
-        "sound": "kay"
+        "sound": "/keɪ/"
       },
       {
         "text": "tion",
-        "sound": "shun"
+        "sound": "/ʃən/"
       }
     ],
     "challenges": {
@@ -19689,15 +19689,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ef",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "fec",
-        "sound": "fek"
+        "sound": "/fɛk/"
       },
       {
         "text": "tive",
-        "sound": "tiv"
+        "sound": "/tɪv/"
       }
     ],
     "challenges": {
@@ -19813,15 +19813,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ef",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "fi",
-        "sound": "fish"
+        "sound": "/fɪ/"
       },
       {
         "text": "cient",
-        "sound": "unt"
+        "sound": "/ʃənt/"
       }
     ],
     "challenges": {
@@ -19937,15 +19937,15 @@ const gameData = [
     "syllables": [
       {
         "text": "e",
-        "sound": "el"
+        "sound": "/ɛ/"
       },
       {
         "text": "le",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "ment",
-        "sound": "munt"
+        "sound": "/mənt/"
       }
     ],
     "challenges": {
@@ -20061,19 +20061,19 @@ const gameData = [
     "syllables": [
       {
         "text": "e",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "li",
-        "sound": "lim"
+        "sound": "/lɪ/"
       },
       {
         "text": "mi",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "nate",
-        "sound": "nayt"
+        "sound": "/neɪt/"
       }
     ],
     "challenges": {
@@ -20223,15 +20223,15 @@ const gameData = [
     "syllables": [
       {
         "text": "e",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "mo",
-        "sound": "moh"
+        "sound": "/moʊ/"
       },
       {
         "text": "tion",
-        "sound": "shun"
+        "sound": "/ʃən/"
       }
     ],
     "challenges": {
@@ -20347,15 +20347,15 @@ const gameData = [
     "syllables": [
       {
         "text": "em",
-        "sound": "em"
+        "sound": "/ɛm/"
       },
       {
         "text": "pha",
-        "sound": "fuh"
+        "sound": "/fə/"
       },
       {
         "text": "sis",
-        "sound": "sis"
+        "sound": "/sɪs/"
       }
     ],
     "challenges": {
@@ -20471,15 +20471,15 @@ const gameData = [
     "syllables": [
       {
         "text": "em",
-        "sound": "em"
+        "sound": "/ɛm/"
       },
       {
         "text": "pha",
-        "sound": "fuh"
+        "sound": "/fə/"
       },
       {
         "text": "size",
-        "sound": "syz"
+        "sound": "/saɪz/"
       }
     ],
     "challenges": {
@@ -20595,15 +20595,15 @@ const gameData = [
     "syllables": [
       {
         "text": "en",
-        "sound": "in"
+        "sound": "/ɪn/"
       },
       {
         "text": "coun",
-        "sound": "kownt"
+        "sound": "/kaʊn/"
       },
       {
         "text": "ter",
-        "sound": "er"
+        "sound": "/tər/"
       }
     ],
     "challenges": {
@@ -20719,15 +20719,15 @@ const gameData = [
     "syllables": [
       {
         "text": "e",
-        "sound": "en"
+        "sound": "/ɛ/"
       },
       {
         "text": "ner",
-        "sound": "er"
+        "sound": "/nər/"
       },
       {
         "text": "gy",
-        "sound": "jee"
+        "sound": "/dʒi/"
       }
     ],
     "challenges": {
@@ -20843,11 +20843,11 @@ const gameData = [
     "syllables": [
       {
         "text": "en",
-        "sound": "in"
+        "sound": "/ɪn/"
       },
       {
         "text": "joy",
-        "sound": "joy"
+        "sound": "/dʒɔɪ/"
       }
     ],
     "challenges": {
@@ -20929,15 +20929,15 @@ const gameData = [
     "syllables": [
       {
         "text": "e",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "nor",
-        "sound": "nor"
+        "sound": "/nɔːr/"
       },
       {
         "text": "mous",
-        "sound": "mus"
+        "sound": "/məs/"
       }
     ],
     "challenges": {
@@ -21053,19 +21053,19 @@ const gameData = [
     "syllables": [
       {
         "text": "en",
-        "sound": "in"
+        "sound": "/ɪn/"
       },
       {
         "text": "vi",
-        "sound": "vy"
+        "sound": "/vaɪ/"
       },
       {
         "text": "ron",
-        "sound": "run"
+        "sound": "/rən/"
       },
       {
         "text": "ment",
-        "sound": "munt"
+        "sound": "/mənt/"
       }
     ],
     "challenges": {
@@ -21215,11 +21215,11 @@ const gameData = [
     "syllables": [
       {
         "text": "es",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "cape",
-        "sound": "kayp"
+        "sound": "/keɪp/"
       }
     ],
     "challenges": {
@@ -21301,15 +21301,15 @@ const gameData = [
     "syllables": [
       {
         "text": "es",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "tab",
-        "sound": "tab"
+        "sound": "/tæb/"
       },
       {
         "text": "lish",
-        "sound": "lish"
+        "sound": "/lɪʃ/"
       }
     ],
     "challenges": {
@@ -21425,19 +21425,19 @@ const gameData = [
     "syllables": [
       {
         "text": "e",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "va",
-        "sound": "val"
+        "sound": "/væ/"
       },
       {
         "text": "lu",
-        "sound": "yoo"
+        "sound": "/luː/"
       },
       {
         "text": "ate",
-        "sound": "ayt"
+        "sound": "/eɪt/"
       }
     ],
     "challenges": {
@@ -21587,23 +21587,23 @@ const gameData = [
     "syllables": [
       {
         "text": "e",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "ven",
-        "sound": "ven"
+        "sound": "/vɛn/"
       },
       {
         "text": "tu",
-        "sound": "choo"
+        "sound": "/tʃu/"
       },
       {
         "text": "al",
-        "sound": "ul"
+        "sound": "/əl/"
       },
       {
         "text": "ly",
-        "sound": "ee"
+        "sound": "/li/"
       }
     ],
     "challenges": {
@@ -21787,15 +21787,15 @@ const gameData = [
     "syllables": [
       {
         "text": "e",
-        "sound": "ev"
+        "sound": "/ɛ/"
       },
       {
         "text": "vi",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "dence",
-        "sound": "dens"
+        "sound": "/dəns/"
       }
     ],
     "challenges": {
@@ -21911,19 +21911,19 @@ const gameData = [
     "syllables": [
       {
         "text": "e",
-        "sound": "ee"
+        "sound": "/iː/"
       },
       {
         "text": "vo",
-        "sound": "vuh"
+        "sound": "/və/"
       },
       {
         "text": "lu",
-        "sound": "loo"
+        "sound": "/luː/"
       },
       {
         "text": "tion",
-        "sound": "shun"
+        "sound": "/ʃən/"
       }
     ],
     "challenges": {
@@ -22073,15 +22073,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ex",
-        "sound": "ig"
+        "sound": "/ɪɡ/"
       },
       {
         "text": "am",
-        "sound": "zam"
+        "sound": "/zæm/"
       },
       {
         "text": "ple",
-        "sound": "pul"
+        "sound": "/pəl/"
       }
     ],
     "challenges": {
@@ -22197,15 +22197,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ex",
-        "sound": "ek"
+        "sound": "/ɛks/"
       },
       {
         "text": "cel",
-        "sound": "sel"
+        "sound": "/səl/"
       },
       {
         "text": "lent",
-        "sound": "unt"
+        "sound": "/lənt/"
       }
     ],
     "challenges": {
@@ -22321,15 +22321,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ex",
-        "sound": "ek"
+        "sound": "/ɛks/"
       },
       {
         "text": "er",
-        "sound": "er"
+        "sound": "/ər/"
       },
       {
         "text": "cise",
-        "sound": "syz"
+        "sound": "/saɪz/"
       }
     ],
     "challenges": {
@@ -22445,19 +22445,19 @@ const gameData = [
     "syllables": [
       {
         "text": "ex",
-        "sound": "ik"
+        "sound": "/ɪk/"
       },
       {
         "text": "pe",
-        "sound": "peer"
+        "sound": "/spɪ/"
       },
       {
         "text": "ri",
-        "sound": "ee"
+        "sound": "/rɪ/"
       },
       {
         "text": "ence",
-        "sound": "uns"
+        "sound": "/əns/"
       }
     ],
     "challenges": {
@@ -22607,11 +22607,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ex",
-        "sound": "ik"
+        "sound": "/ɪk/"
       },
       {
         "text": "plain",
-        "sound": "playn"
+        "sound": "/spleɪn/"
       }
     ],
     "challenges": {
@@ -22693,11 +22693,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ex",
-        "sound": "ik"
+        "sound": "/ɪk/"
       },
       {
         "text": "plore",
-        "sound": "plor"
+        "sound": "/splɔːr/"
       }
     ],
     "challenges": {
@@ -22779,11 +22779,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ex",
-        "sound": "ik"
+        "sound": "/ɪk/"
       },
       {
         "text": "press",
-        "sound": "pres"
+        "sound": "/spres/"
       }
     ],
     "challenges": {
@@ -22864,15 +22864,15 @@ const gameData = [
     "syllables": [
       {
         "text": "fa",
-        "sound": "fam"
+        "sound": "/fæ/"
       },
       {
         "text": "mi",
-        "sound": "muh"
+        "sound": "/mə/"
       },
       {
         "text": "ly",
-        "sound": "lee"
+        "sound": "/li/"
       }
     ],
     "challenges": {
@@ -22953,11 +22953,11 @@ const gameData = [
     "syllables": [
       {
         "text": "fa",
-        "sound": "fay"
+        "sound": "/feɪ/"
       },
       {
         "text": "mous",
-        "sound": "mus"
+        "sound": "/məs/"
       }
     ],
     "challenges": {
@@ -23039,15 +23039,15 @@ const gameData = [
     "syllables": [
       {
         "text": "fan",
-        "sound": "fan"
+        "sound": "/fæn/"
       },
       {
         "text": "ta",
-        "sound": "tuh"
+        "sound": "/tə/"
       },
       {
         "text": "sy",
-        "sound": "see"
+        "sound": "/si/"
       }
     ],
     "challenges": {
@@ -23162,11 +23162,11 @@ const gameData = [
     "syllables": [
       {
         "text": "far",
-        "sound": "far"
+        "sound": "/fɑːr/"
       },
       {
         "text": "mer",
-        "sound": "mer"
+        "sound": "/mər/"
       }
     ],
     "challenges": {
@@ -23225,11 +23225,11 @@ const gameData = [
     "syllables": [
       {
         "text": "fa",
-        "sound": "fash"
+        "sound": "/fæ/"
       },
       {
         "text": "shion",
-        "sound": "un"
+        "sound": "/ʃən/"
       }
     ],
     "challenges": {
@@ -23310,11 +23310,11 @@ const gameData = [
     "syllables": [
       {
         "text": "fa",
-        "sound": "fah"
+        "sound": "/fɑː/"
       },
       {
         "text": "ther",
-        "sound": "ther"
+        "sound": "/ðər/"
       }
     ],
     "challenges": {
@@ -23373,15 +23373,15 @@ const gameData = [
     "syllables": [
       {
         "text": "fes",
-        "sound": "fes"
+        "sound": "/fɛs/"
       },
       {
         "text": "ti",
-        "sound": "tih"
+        "sound": "/tɪ/"
       },
       {
         "text": "val",
-        "sound": "vul"
+        "sound": "/vəl/"
       }
     ],
     "challenges": {
@@ -23497,15 +23497,15 @@ const gameData = [
     "syllables": [
       {
         "text": "fi",
-        "sound": "fy"
+        "sound": "/faɪ/"
       },
       {
         "text": "nal",
-        "sound": "nul"
+        "sound": "/nəl/"
       },
       {
         "text": "ly",
-        "sound": "lee"
+        "sound": "/li/"
       }
     ],
     "challenges": {
@@ -23620,11 +23620,11 @@ const gameData = [
     "syllables": [
       {
         "text": "fin",
-        "sound": "fing"
+        "sound": "/fɪŋ/"
       },
       {
         "text": "ger",
-        "sound": "ger"
+        "sound": "/ɡər/"
       }
     ],
     "challenges": {
@@ -23683,15 +23683,15 @@ const gameData = [
     "syllables": [
       {
         "text": "flex",
-        "sound": "fleks"
+        "sound": "/flɛks/"
       },
       {
         "text": "i",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "ble",
-        "sound": "bul"
+        "sound": "/bəl/"
       }
     ],
     "challenges": {
@@ -23806,11 +23806,11 @@ const gameData = [
     "syllables": [
       {
         "text": "foot",
-        "sound": "foot"
+        "sound": "/fʊt/"
       },
       {
         "text": "ball",
-        "sound": "ball"
+        "sound": "/bɔːl/"
       }
     ],
     "challenges": {
@@ -23869,11 +23869,11 @@ const gameData = [
     "syllables": [
       {
         "text": "fo",
-        "sound": "for"
+        "sound": "/fɒr/"
       },
       {
         "text": "reign",
-        "sound": "in"
+        "sound": "/ɪn/"
       }
     ],
     "challenges": {
@@ -23955,15 +23955,15 @@ const gameData = [
     "syllables": [
       {
         "text": "for",
-        "sound": "for"
+        "sound": "/fɔːr/"
       },
       {
         "text": "tu",
-        "sound": "chuh"
+        "sound": "/tʃə/"
       },
       {
         "text": "nate",
-        "sound": "nut"
+        "sound": "/nət/"
       }
     ],
     "challenges": {
@@ -24079,11 +24079,11 @@ const gameData = [
     "syllables": [
       {
         "text": "free",
-        "sound": "free"
+        "sound": "/friː/"
       },
       {
         "text": "dom",
-        "sound": "dum"
+        "sound": "/dəm/"
       }
     ],
     "challenges": {
@@ -24164,11 +24164,11 @@ const gameData = [
     "syllables": [
       {
         "text": "fri",
-        "sound": "fry"
+        "sound": "/fraɪ/"
       },
       {
         "text": "day",
-        "sound": "day"
+        "sound": "/deɪ/"
       }
     ],
     "challenges": {
@@ -24227,11 +24227,11 @@ const gameData = [
     "syllables": [
       {
         "text": "friend",
-        "sound": "frend"
+        "sound": "/frɛnd/"
       },
       {
         "text": "ship",
-        "sound": "ship"
+        "sound": "/ʃɪp/"
       }
     ],
     "challenges": {
@@ -24313,11 +24313,11 @@ const gameData = [
     "syllables": [
       {
         "text": "frus",
-        "sound": "frus"
+        "sound": "/frʌs/"
       },
       {
         "text": "trate",
-        "sound": "trayt"
+        "sound": "/treɪt/"
       }
     ],
     "challenges": {
@@ -24399,19 +24399,19 @@ const gameData = [
     "syllables": [
       {
         "text": "fun",
-        "sound": "fun"
+        "sound": "/fʌn/"
       },
       {
         "text": "da",
-        "sound": "duh"
+        "sound": "/də/"
       },
       {
         "text": "men",
-        "sound": "men"
+        "sound": "/mɛn/"
       },
       {
         "text": "tal",
-        "sound": "tul"
+        "sound": "/təl/"
       }
     ],
     "challenges": {
@@ -24560,11 +24560,11 @@ const gameData = [
     "syllables": [
       {
         "text": "gar",
-        "sound": "gar"
+        "sound": "/ɡɑːr/"
       },
       {
         "text": "den",
-        "sound": "den"
+        "sound": "/dən/"
       }
     ],
     "challenges": {
@@ -24623,15 +24623,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ge",
-        "sound": "jen"
+        "sound": "/dʒɛn/"
       },
       {
         "text": "ne",
-        "sound": "er"
+        "sound": "/ər/"
       },
       {
         "text": "ral",
-        "sound": "ul"
+        "sound": "/əl/"
       }
     ],
     "challenges": {
@@ -24747,15 +24747,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ge",
-        "sound": "jen"
+        "sound": "/dʒɛn/"
       },
       {
         "text": "ne",
-        "sound": "er"
+        "sound": "/ər/"
       },
       {
         "text": "rate",
-        "sound": "ayt"
+        "sound": "/eɪt/"
       }
     ],
     "challenges": {
@@ -24871,11 +24871,11 @@ const gameData = [
     "syllables": [
       {
         "text": "glo",
-        "sound": "gloh"
+        "sound": "/gloʊ/"
       },
       {
         "text": "bal",
-        "sound": "bul"
+        "sound": "/bəl/"
       }
     ],
     "challenges": {
@@ -24957,15 +24957,15 @@ const gameData = [
     "syllables": [
       {
         "text": "go",
-        "sound": "guv"
+        "sound": "/gʌv/"
       },
       {
         "text": "vern",
-        "sound": "ern"
+        "sound": "/ərn/"
       },
       {
         "text": "ment",
-        "sound": "munt"
+        "sound": "/mənt/"
       }
     ],
     "challenges": {
@@ -25081,19 +25081,19 @@ const gameData = [
     "syllables": [
       {
         "text": "gra",
-        "sound": "graj"
+        "sound": "/græ/"
       },
       {
         "text": "du",
-        "sound": "yoo"
+        "sound": "/dju/"
       },
       {
         "text": "al",
-        "sound": "ul"
+        "sound": "/əl/"
       },
       {
         "text": "ly",
-        "sound": "lee"
+        "sound": "/li/"
       }
     ],
     "challenges": {
@@ -25243,11 +25243,11 @@ const gameData = [
     "syllables": [
       {
         "text": "grate",
-        "sound": "grayt"
+        "sound": "/greɪt/"
       },
       {
         "text": "ful",
-        "sound": "ful"
+        "sound": "/fəl/"
       }
     ],
     "challenges": {
@@ -25329,15 +25329,15 @@ const gameData = [
     "syllables": [
       {
         "text": "gua",
-        "sound": "gar"
+        "sound": "/gær/"
       },
       {
         "text": "ran",
-        "sound": "un"
+        "sound": "/ən/"
       },
       {
         "text": "tee",
-        "sound": "tee"
+        "sound": "/tiː/"
       }
     ],
     "challenges": {
@@ -25452,11 +25452,11 @@ const gameData = [
     "syllables": [
       {
         "text": "gui",
-        "sound": "gih"
+        "sound": "/ɡɪ/"
       },
       {
         "text": "tar",
-        "sound": "tar"
+        "sound": "/tɑːr/"
       }
     ],
     "challenges": {
@@ -25515,15 +25515,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ha",
-        "sound": "hab"
+        "sound": "/hæ/"
       },
       {
         "text": "bi",
-        "sound": "ih"
+        "sound": "/bɪ/"
       },
       {
         "text": "tat",
-        "sound": "tat"
+        "sound": "/tæt/"
       }
     ],
     "challenges": {
@@ -25638,11 +25638,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ha",
-        "sound": "hah"
+        "sound": "/hæ/"
       },
       {
         "text": "ppy",
-        "sound": "pee"
+        "sound": "/pi/"
       }
     ],
     "challenges": {
@@ -25701,11 +25701,11 @@ const gameData = [
     "syllables": [
       {
         "text": "hard",
-        "sound": "hard"
+        "sound": "/hɑːrd/"
       },
       {
         "text": "ly",
-        "sound": "lee"
+        "sound": "/li/"
       }
     ],
     "challenges": {
@@ -25787,11 +25787,11 @@ const gameData = [
     "syllables": [
       {
         "text": "har",
-        "sound": "har"
+        "sound": "/hɑːr/"
       },
       {
         "text": "vest",
-        "sound": "vest"
+        "sound": "/vɪst/"
       }
     ],
     "challenges": {
@@ -25872,11 +25872,11 @@ const gameData = [
     "syllables": [
       {
         "text": "hel",
-        "sound": "hel"
+        "sound": "/hɛl/"
       },
       {
         "text": "lo",
-        "sound": "loh"
+        "sound": "/loʊ/"
       }
     ],
     "challenges": {
@@ -25935,19 +25935,19 @@ const gameData = [
     "syllables": [
       {
         "text": "hi",
-        "sound": "hy"
+        "sound": "/haɪ/"
       },
       {
         "text": "er",
-        "sound": "er"
+        "sound": "/ər/"
       },
       {
         "text": "ar",
-        "sound": "ar"
+        "sound": "/ɑːr/"
       },
       {
         "text": "chy",
-        "sound": "kee"
+        "sound": "/ki/"
       }
     ],
     "challenges": {
@@ -26097,11 +26097,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ho",
-        "sound": "on"
+        "sound": "/ɒn/"
       },
       {
         "text": "nest",
-        "sound": "ist"
+        "sound": "/ɪst/"
       }
     ],
     "challenges": {
@@ -26183,15 +26183,15 @@ const gameData = [
     "syllables": [
       {
         "text": "how",
-        "sound": "how"
+        "sound": "/haʊ/"
       },
       {
         "text": "e",
-        "sound": "ev"
+        "sound": "/ɛ/"
       },
       {
         "text": "ver",
-        "sound": "er"
+        "sound": "/vər/"
       }
     ],
     "challenges": {
@@ -26307,19 +26307,19 @@ const gameData = [
     "syllables": [
       {
         "text": "hy",
-        "sound": "hy"
+        "sound": "/haɪ/"
       },
       {
         "text": "po",
-        "sound": "poth"
+        "sound": "/pɒ/"
       },
       {
         "text": "the",
-        "sound": "ih"
+        "sound": "/θɪ/"
       },
       {
         "text": "sis",
-        "sound": "sis"
+        "sound": "/sɪs/"
       }
     ],
     "challenges": {
@@ -26469,19 +26469,19 @@ const gameData = [
     "syllables": [
       {
         "text": "i",
-        "sound": "eye"
+        "sound": "/aɪ/"
       },
       {
         "text": "den",
-        "sound": "den"
+        "sound": "/dɛn/"
       },
       {
         "text": "ti",
-        "sound": "tih"
+        "sound": "/tɪ/"
       },
       {
         "text": "fy",
-        "sound": "fy"
+        "sound": "/faɪ/"
       }
     ],
     "challenges": {
@@ -26631,23 +26631,23 @@ const gameData = [
     "syllables": [
       {
         "text": "i",
-        "sound": "eye"
+        "sound": "/aɪ/"
       },
       {
         "text": "de",
-        "sound": "dee"
+        "sound": "/diː/"
       },
       {
         "text": "ol",
-        "sound": "ol"
+        "sound": "/ɒl/"
       },
       {
         "text": "o",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "gy",
-        "sound": "jee"
+        "sound": "/dʒi/"
       }
     ],
     "challenges": {
@@ -26831,19 +26831,19 @@ const gameData = [
     "syllables": [
       {
         "text": "il",
-        "sound": "il"
+        "sound": "/ɪl/"
       },
       {
         "text": "lus",
-        "sound": "us"
+        "sound": "/lə/"
       },
       {
         "text": "tra",
-        "sound": "tray"
+        "sound": "/streɪ/"
       },
       {
         "text": "tion",
-        "sound": "shun"
+        "sound": "/ʃən/"
       }
     ],
     "challenges": {
@@ -26993,15 +26993,15 @@ const gameData = [
     "syllables": [
       {
         "text": "i",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "ma",
-        "sound": "maj"
+        "sound": "/mæ/"
       },
       {
         "text": "gine",
-        "sound": "in"
+        "sound": "/dʒɪn/"
       }
     ],
     "challenges": {
@@ -27117,11 +27117,11 @@ const gameData = [
     "syllables": [
       {
         "text": "im",
-        "sound": "im"
+        "sound": "/ɪm/"
       },
       {
         "text": "pact",
-        "sound": "pakt"
+        "sound": "/pækt/"
       }
     ],
     "challenges": {
@@ -27203,15 +27203,15 @@ const gameData = [
     "syllables": [
       {
         "text": "im",
-        "sound": "im"
+        "sound": "/ɪm/"
       },
       {
         "text": "ple",
-        "sound": "plih"
+        "sound": "/plɪ/"
       },
       {
         "text": "ment",
-        "sound": "munt"
+        "sound": "/mənt/"
       }
     ],
     "challenges": {
@@ -27327,19 +27327,19 @@ const gameData = [
     "syllables": [
       {
         "text": "im",
-        "sound": "im"
+        "sound": "/ɪm/"
       },
       {
         "text": "pli",
-        "sound": "plih"
+        "sound": "/plɪ/"
       },
       {
         "text": "ca",
-        "sound": "kay"
+        "sound": "/keɪ/"
       },
       {
         "text": "tion",
-        "sound": "shun"
+        "sound": "/ʃən/"
       }
     ],
     "challenges": {
@@ -27489,15 +27489,15 @@ const gameData = [
     "syllables": [
       {
         "text": "im",
-        "sound": "im"
+        "sound": "/ɪm/"
       },
       {
         "text": "por",
-        "sound": "por"
+        "sound": "/pɔːr/"
       },
       {
         "text": "tant",
-        "sound": "tunt"
+        "sound": "/tənt/"
       }
     ],
     "challenges": {
@@ -27613,11 +27613,11 @@ const gameData = [
     "syllables": [
       {
         "text": "im",
-        "sound": "im"
+        "sound": "/ɪm/"
       },
       {
         "text": "prove",
-        "sound": "proov"
+        "sound": "/pruːv/"
       }
     ],
     "challenges": {
@@ -27699,11 +27699,11 @@ const gameData = [
     "syllables": [
       {
         "text": "in",
-        "sound": "in"
+        "sound": "/ɪn/"
       },
       {
         "text": "clude",
-        "sound": "klood"
+        "sound": "/kluːd/"
       }
     ],
     "challenges": {
@@ -27785,11 +27785,11 @@ const gameData = [
     "syllables": [
       {
         "text": "in",
-        "sound": "in"
+        "sound": "/ɪn/"
       },
       {
         "text": "crease",
-        "sound": "krees"
+        "sound": "/kriːs/"
       }
     ],
     "challenges": {
@@ -27871,15 +27871,15 @@ const gameData = [
     "syllables": [
       {
         "text": "in",
-        "sound": "in"
+        "sound": "/ɪn/"
       },
       {
         "text": "di",
-        "sound": "dih"
+        "sound": "/dɪ/"
       },
       {
         "text": "cate",
-        "sound": "kayt"
+        "sound": "/keɪt/"
       }
     ],
     "challenges": {
@@ -27995,23 +27995,23 @@ const gameData = [
     "syllables": [
       {
         "text": "in",
-        "sound": "in"
+        "sound": "/ɪn/"
       },
       {
         "text": "di",
-        "sound": "dih"
+        "sound": "/dɪ/"
       },
       {
         "text": "vi",
-        "sound": "vij"
+        "sound": "/vɪ/"
       },
       {
         "text": "du",
-        "sound": "yoo"
+        "sound": "/dju/"
       },
       {
         "text": "al",
-        "sound": "ul"
+        "sound": "/əl/"
       }
     ],
     "challenges": {
@@ -28195,15 +28195,15 @@ const gameData = [
     "syllables": [
       {
         "text": "in",
-        "sound": "in"
+        "sound": "/ɪn/"
       },
       {
         "text": "flu",
-        "sound": "floo"
+        "sound": "/flu/"
       },
       {
         "text": "ence",
-        "sound": "uns"
+        "sound": "/əns/"
       }
     ],
     "challenges": {
@@ -28319,19 +28319,19 @@ const gameData = [
     "syllables": [
       {
         "text": "in",
-        "sound": "in"
+        "sound": "/ɪn/"
       },
       {
         "text": "for",
-        "sound": "fer"
+        "sound": "/fər/"
       },
       {
         "text": "ma",
-        "sound": "may"
+        "sound": "/meɪ/"
       },
       {
         "text": "tion",
-        "sound": "shun"
+        "sound": "/ʃən/"
       }
     ],
     "challenges": {
@@ -28481,19 +28481,19 @@ const gameData = [
     "syllables": [
       {
         "text": "in",
-        "sound": "in"
+        "sound": "/ɪn/"
       },
       {
         "text": "fra",
-        "sound": "fruh"
+        "sound": "/frə/"
       },
       {
         "text": "struc",
-        "sound": "struk"
+        "sound": "/strʌk/"
       },
       {
         "text": "ture",
-        "sound": "cher"
+        "sound": "/tʃər/"
       }
     ],
     "challenges": {
@@ -28634,8 +28634,8 @@ const gameData = [
         }
       ]
     }
-  },
-  {
+  };,
+{
     "word": "innovation",
     "phonetic": ",ɪnə'veɪʃn/",
     "translation": "创新，革新",
@@ -28643,19 +28643,19 @@ const gameData = [
     "syllables": [
       {
         "text": "in",
-        "sound": "in"
+        "sound": "/ɪn/"
       },
       {
         "text": "no",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "va",
-        "sound": "vay"
+        "sound": "/veɪ/"
       },
       {
         "text": "tion",
-        "sound": "shun"
+        "sound": "/ʃən/"
       }
     ],
     "challenges": {
@@ -28805,11 +28805,11 @@ const gameData = [
     "syllables": [
       {
         "text": "in",
-        "sound": "in"
+        "sound": "/ɪn/"
       },
       {
         "text": "spire",
-        "sound": "spyr"
+        "sound": "/spaɪər/"
       }
     ],
     "challenges": {
@@ -28891,19 +28891,19 @@ const gameData = [
     "syllables": [
       {
         "text": "in",
-        "sound": "in"
+        "sound": "/ɪn/"
       },
       {
         "text": "sti",
-        "sound": "stih"
+        "sound": "/stɪ/"
       },
       {
         "text": "tu",
-        "sound": "tyoo"
+        "sound": "/tjuː/"
       },
       {
         "text": "tion",
-        "sound": "shun"
+        "sound": "/ʃən/"
       }
     ],
     "challenges": {
@@ -29053,19 +29053,19 @@ const gameData = [
     "syllables": [
       {
         "text": "in",
-        "sound": "in"
+        "sound": "/ɪn/"
       },
       {
         "text": "tel",
-        "sound": "tel"
+        "sound": "/tɛl/"
       },
       {
         "text": "li",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "gent",
-        "sound": "junt"
+        "sound": "/dʒənt/"
       }
     ],
     "challenges": {
@@ -29215,15 +29215,15 @@ const gameData = [
     "syllables": [
       {
         "text": "in",
-        "sound": "in"
+        "sound": "/ɪn/"
       },
       {
         "text": "ter",
-        "sound": "ter"
+        "sound": "/tər/"
       },
       {
         "text": "act",
-        "sound": "akt"
+        "sound": "/ækt/"
       }
     ],
     "challenges": {
@@ -29339,15 +29339,15 @@ const gameData = [
     "syllables": [
       {
         "text": "in",
-        "sound": "in"
+        "sound": "/ɪn/"
       },
       {
         "text": "ter",
-        "sound": "ter"
+        "sound": "/tər/"
       },
       {
         "text": "est",
-        "sound": "ist"
+        "sound": "/ɪst/"
       }
     ],
     "challenges": {
@@ -29463,15 +29463,15 @@ const gameData = [
     "syllables": [
       {
         "text": "in",
-        "sound": "in"
+        "sound": "/ɪn/"
       },
       {
         "text": "ter",
-        "sound": "ter"
+        "sound": "/tɜːr/"
       },
       {
         "text": "pret",
-        "sound": "prit"
+        "sound": "/prɪt/"
       }
     ],
     "challenges": {
@@ -29587,19 +29587,19 @@ const gameData = [
     "syllables": [
       {
         "text": "in",
-        "sound": "in"
+        "sound": "/ɪn/"
       },
       {
         "text": "ves",
-        "sound": "ves"
+        "sound": "/vɛs/"
       },
       {
         "text": "ti",
-        "sound": "tih"
+        "sound": "/tɪ/"
       },
       {
         "text": "gate",
-        "sound": "gayt"
+        "sound": "/ɡeɪt/"
       }
     ],
     "challenges": {
@@ -29748,11 +29748,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ja",
-        "sound": "jack"
+        "sound": "/dʒæk/"
       },
       {
         "text": "cket",
-        "sound": "it"
+        "sound": "/ɪt/"
       }
     ],
     "challenges": {
@@ -29811,15 +29811,15 @@ const gameData = [
     "syllables": [
       {
         "text": "jus",
-        "sound": "jus"
+        "sound": "/dʒʌs/"
       },
       {
         "text": "ti",
-        "sound": "tih"
+        "sound": "/tɪ/"
       },
       {
         "text": "fy",
-        "sound": "fy"
+        "sound": "/faɪ/"
       }
     ],
     "challenges": {
@@ -29935,11 +29935,11 @@ const gameData = [
     "syllables": [
       {
         "text": "lan",
-        "sound": "lang"
+        "sound": "/læŋ/"
       },
       {
         "text": "guage",
-        "sound": "gwij"
+        "sound": "/ɡwɪdʒ/"
       }
     ],
     "challenges": {
@@ -30020,11 +30020,11 @@ const gameData = [
     "syllables": [
       {
         "text": "le",
-        "sound": "lem"
+        "sound": "/lɛm/"
       },
       {
         "text": "mon",
-        "sound": "mun"
+        "sound": "/ən/"
       }
     ],
     "challenges": {
@@ -30082,11 +30082,11 @@ const gameData = [
     "syllables": [
       {
         "text": "les",
-        "sound": "less"
+        "sound": "/lɛs/"
       },
       {
         "text": "son",
-        "sound": "sun"
+        "sound": "/ən/"
       }
     ],
     "challenges": {
@@ -30144,11 +30144,11 @@ const gameData = [
     "syllables": [
       {
         "text": "le",
-        "sound": "leh"
+        "sound": "/lɛ/"
       },
       {
         "text": "tter",
-        "sound": "ter"
+        "sound": "/tər/"
       }
     ],
     "challenges": {
@@ -30207,11 +30207,11 @@ const gameData = [
     "syllables": [
       {
         "text": "life",
-        "sound": "lyf"
+        "sound": "/laɪf/"
       },
       {
         "text": "style",
-        "sound": "styl"
+        "sound": "/staɪl/"
       }
     ],
     "challenges": {
@@ -30292,11 +30292,11 @@ const gameData = [
     "syllables": [
       {
         "text": "li",
-        "sound": "lie"
+        "sound": "/laɪ/"
       },
       {
         "text": "on",
-        "sound": "un"
+        "sound": "/ən/"
       }
     ],
     "challenges": {
@@ -30355,19 +30355,19 @@ const gameData = [
     "syllables": [
       {
         "text": "li",
-        "sound": "lit"
+        "sound": "/lɪt/"
       },
       {
         "text": "te",
-        "sound": "er"
+        "sound": "/ər/"
       },
       {
         "text": "ra",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "ture",
-        "sound": "cher"
+        "sound": "/tʃər/"
       }
     ],
     "challenges": {
@@ -30517,11 +30517,11 @@ const gameData = [
     "syllables": [
       {
         "text": "main",
-        "sound": "mayn"
+        "sound": "/meɪn/"
       },
       {
         "text": "tain",
-        "sound": "tayn"
+        "sound": "/teɪn/"
       }
     ],
     "challenges": {
@@ -30603,11 +30603,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ma",
-        "sound": "man"
+        "sound": "/mæn/"
       },
       {
         "text": "nage",
-        "sound": "ij"
+        "sound": "/ɪdʒ/"
       }
     ],
     "challenges": {
@@ -30688,11 +30688,11 @@ const gameData = [
     "syllables": [
       {
         "text": "mar",
-        "sound": "mar"
+        "sound": "/mɑːr/"
       },
       {
         "text": "ket",
-        "sound": "kit"
+        "sound": "/kɪt/"
       }
     ],
     "challenges": {
@@ -30751,11 +30751,11 @@ const gameData = [
     "syllables": [
       {
         "text": "mean",
-        "sound": "meen"
+        "sound": "/miːn/"
       },
       {
         "text": "while",
-        "sound": "wyl"
+        "sound": "/waɪl/"
       }
     ],
     "challenges": {
@@ -30837,15 +30837,15 @@ const gameData = [
     "syllables": [
       {
         "text": "me",
-        "sound": "mek"
+        "sound": "/mɛk/"
       },
       {
         "text": "cha",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "nism",
-        "sound": "nizm"
+        "sound": "/nɪzəm/"
       }
     ],
     "challenges": {
@@ -30961,11 +30961,11 @@ const gameData = [
     "syllables": [
       {
         "text": "mi",
-        "sound": "my"
+        "sound": "/maɪ/"
       },
       {
         "text": "grate",
-        "sound": "grayt"
+        "sound": "/ɡreɪt/"
       }
     ],
     "challenges": {
@@ -31047,11 +31047,11 @@ const gameData = [
     "syllables": [
       {
         "text": "mi",
-        "sound": "mil"
+        "sound": "/mɪl/"
       },
       {
         "text": "llion",
-        "sound": "yun"
+        "sound": "/jən/"
       }
     ],
     "challenges": {
@@ -31132,11 +31132,11 @@ const gameData = [
     "syllables": [
       {
         "text": "mir",
-        "sound": "mir"
+        "sound": "/mɪr/"
       },
       {
         "text": "ror",
-        "sound": "er"
+        "sound": "/ər/"
       }
     ],
     "challenges": {
@@ -31194,11 +31194,11 @@ const gameData = [
     "syllables": [
       {
         "text": "mon",
-        "sound": "mun"
+        "sound": "/mʌn/"
       },
       {
         "text": "day",
-        "sound": "day"
+        "sound": "/deɪ/"
       }
     ],
     "challenges": {
@@ -31256,11 +31256,11 @@ const gameData = [
     "syllables": [
       {
         "text": "mon",
-        "sound": "mung"
+        "sound": "/mʌŋ/"
       },
       {
         "text": "key",
-        "sound": "kee"
+        "sound": "/ki/"
       }
     ],
     "challenges": {
@@ -31318,11 +31318,11 @@ const gameData = [
     "syllables": [
       {
         "text": "mo",
-        "sound": "muh"
+        "sound": "/mʌ/"
       },
       {
         "text": "ther",
-        "sound": "ther"
+        "sound": "/ðər/"
       }
     ],
     "challenges": {
@@ -31381,15 +31381,15 @@ const gameData = [
     "syllables": [
       {
         "text": "mo",
-        "sound": "moh"
+        "sound": "/moʊ/"
       },
       {
         "text": "ti",
-        "sound": "tih"
+        "sound": "/tɪ/"
       },
       {
         "text": "vate",
-        "sound": "vayt"
+        "sound": "/veɪt/"
       }
     ],
     "challenges": {
@@ -31505,11 +31505,11 @@ const gameData = [
     "syllables": [
       {
         "text": "moun",
-        "sound": "mown"
+        "sound": "/maʊn/"
       },
       {
         "text": "tain",
-        "sound": "tin"
+        "sound": "/tɪn/"
       }
     ],
     "challenges": {
@@ -31591,11 +31591,11 @@ const gameData = [
     "syllables": [
       {
         "text": "move",
-        "sound": "moov"
+        "sound": "/muːv/"
       },
       {
         "text": "ment",
-        "sound": "munt"
+        "sound": "/mənt/"
       }
     ],
     "challenges": {
@@ -31676,11 +31676,11 @@ const gameData = [
     "syllables": [
       {
         "text": "mu",
-        "sound": "myoo"
+        "sound": "/mjuː/"
       },
       {
         "text": "sic",
-        "sound": "zik"
+        "sound": "/zɪk/"
       }
     ],
     "challenges": {
@@ -31739,15 +31739,15 @@ const gameData = [
     "syllables": [
       {
         "text": "na",
-        "sound": "nach"
+        "sound": "/nætʃ/"
       },
       {
         "text": "tu",
-        "sound": "er"
+        "sound": "/ər/"
       },
       {
         "text": "ral",
-        "sound": "ul"
+        "sound": "/əl/"
       }
     ],
     "challenges": {
@@ -31863,19 +31863,19 @@ const gameData = [
     "syllables": [
       {
         "text": "ne",
-        "sound": "nes"
+        "sound": "/nɛs/"
       },
       {
         "text": "ces",
-        "sound": "ih"
+        "sound": "/ə/"
       },
       {
         "text": "sa",
-        "sound": "ser"
+        "sound": "/sər/"
       },
       {
         "text": "ry",
-        "sound": "ee"
+        "sound": "/i/"
       }
     ],
     "challenges": {
@@ -32025,19 +32025,19 @@ const gameData = [
     "syllables": [
       {
         "text": "ne",
-        "sound": "nih"
+        "sound": "/nɪ/"
       },
       {
         "text": "go",
-        "sound": "goh"
+        "sound": "/ɡoʊ/"
       },
       {
         "text": "ti",
-        "sound": "shee"
+        "sound": "/ʃi/"
       },
       {
         "text": "ate",
-        "sound": "ayt"
+        "sound": "/eɪt/"
       }
     ],
     "challenges": {
@@ -32187,11 +32187,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ner",
-        "sound": "nerv"
+        "sound": "/nɜːrv/"
       },
       {
         "text": "vous",
-        "sound": "us"
+        "sound": "/əs/"
       }
     ],
     "challenges": {
@@ -32272,11 +32272,11 @@ const gameData = [
     "syllables": [
       {
         "text": "num",
-        "sound": "num"
+        "sound": "/nʌm/"
       },
       {
         "text": "ber",
-        "sound": "ber"
+        "sound": "/bər/"
       }
     ],
     "challenges": {
@@ -32335,15 +32335,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ob",
-        "sound": "ub"
+        "sound": "/əb/"
       },
       {
         "text": "jec",
-        "sound": "jek"
+        "sound": "/dʒɛk/"
       },
       {
         "text": "tive",
-        "sound": "tiv"
+        "sound": "/tɪv/"
       }
     ],
     "challenges": {
@@ -32459,11 +32459,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ob",
-        "sound": "ub"
+        "sound": "/əb/"
       },
       {
         "text": "tain",
-        "sound": "tayn"
+        "sound": "/teɪn/"
       }
     ],
     "challenges": {
@@ -32545,15 +32545,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ob",
-        "sound": "ob"
+        "sound": "/ɒb/"
       },
       {
         "text": "vi",
-        "sound": "vee"
+        "sound": "/vi/"
       },
       {
         "text": "ous",
-        "sound": "us"
+        "sound": "/əs/"
       }
     ],
     "challenges": {
@@ -32668,11 +32668,11 @@ const gameData = [
     "syllables": [
       {
         "text": "o",
-        "sound": "off"
+        "sound": "/ɒf/"
       },
       {
         "text": "ffice",
-        "sound": "fis"
+        "sound": "/fɪs/"
       }
     ],
     "challenges": {
@@ -32731,23 +32731,23 @@ const gameData = [
     "syllables": [
       {
         "text": "op",
-        "sound": "op"
+        "sound": "/ɒp/"
       },
       {
         "text": "por",
-        "sound": "er"
+        "sound": "/ər/"
       },
       {
         "text": "tu",
-        "sound": "tyoo"
+        "sound": "/tjuː/"
       },
       {
         "text": "ni",
-        "sound": "nuh"
+        "sound": "/nə/"
       },
       {
         "text": "ty",
-        "sound": "tee"
+        "sound": "/ti/"
       }
     ],
     "challenges": {
@@ -32931,15 +32931,15 @@ const gameData = [
     "syllables": [
       {
         "text": "or",
-        "sound": "or"
+        "sound": "/ɔːr/"
       },
       {
         "text": "ga",
-        "sound": "guh"
+        "sound": "/ɡə/"
       },
       {
         "text": "nize",
-        "sound": "nyz"
+        "sound": "/naɪz/"
       }
     ],
     "challenges": {
@@ -33055,15 +33055,15 @@ const gameData = [
     "syllables": [
       {
         "text": "o",
-        "sound": "oh"
+        "sound": "/oʊ/"
       },
       {
         "text": "ver",
-        "sound": "ver"
+        "sound": "/vər/"
       },
       {
         "text": "all",
-        "sound": "awl"
+        "sound": "/ɔːl/"
       }
     ],
     "challenges": {
@@ -33178,11 +33178,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pa",
-        "sound": "pay"
+        "sound": "/peɪ/"
       },
       {
         "text": "per",
-        "sound": "per"
+        "sound": "/pər/"
       }
     ],
     "challenges": {
@@ -33241,11 +33241,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pa",
-        "sound": "pay"
+        "sound": "/peɪ/"
       },
       {
         "text": "tient",
-        "sound": "shunt"
+        "sound": "/ʃənt/"
       }
     ],
     "challenges": {
@@ -33326,11 +33326,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pen",
-        "sound": "pen"
+        "sound": "/pɛn/"
       },
       {
         "text": "cil",
-        "sound": "sul"
+        "sound": "/səl/"
       }
     ],
     "challenges": {
@@ -33389,11 +33389,11 @@ const gameData = [
     "syllables": [
       {
         "text": "per",
-        "sound": "per"
+        "sound": "/pər/"
       },
       {
         "text": "form",
-        "sound": "form"
+        "sound": "/fɔːrm/"
       }
     ],
     "challenges": {
@@ -33474,11 +33474,11 @@ const gameData = [
     "syllables": [
       {
         "text": "per",
-        "sound": "per"
+        "sound": "/pɜːr/"
       },
       {
         "text": "son",
-        "sound": "sun"
+        "sound": "/sən/"
       }
     ],
     "challenges": {
@@ -33537,19 +33537,19 @@ const gameData = [
     "syllables": [
       {
         "text": "phe",
-        "sound": "fih"
+        "sound": "/fɪ/"
       },
       {
         "text": "no",
-        "sound": "nom"
+        "sound": "/nɒm/"
       },
       {
         "text": "me",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "non",
-        "sound": "nun"
+        "sound": "/nən/"
       }
     ],
     "challenges": {
@@ -33698,11 +33698,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pho",
-        "sound": "foh"
+        "sound": "/foʊ/"
       },
       {
         "text": "to",
-        "sound": "toh"
+        "sound": "/toʊ/"
       }
     ],
     "challenges": {
@@ -33760,11 +33760,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pic",
-        "sound": "pic"
+        "sound": "/pɪk/"
       },
       {
         "text": "nic",
-        "sound": "nik"
+        "sound": "/nɪk/"
       }
     ],
     "challenges": {
@@ -33822,11 +33822,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pic",
-        "sound": "pic"
+        "sound": "/pɪk/"
       },
       {
         "text": "ture",
-        "sound": "cher"
+        "sound": "/tʃər/"
       }
     ],
     "challenges": {
@@ -33884,11 +33884,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pi",
-        "sound": "pil"
+        "sound": "/pɪl/"
       },
       {
         "text": "llow",
-        "sound": "oh"
+        "sound": "/oʊ/"
       }
     ],
     "challenges": {
@@ -33946,11 +33946,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pi",
-        "sound": "pie"
+        "sound": "/paɪ/"
       },
       {
         "text": "lot",
-        "sound": "lot"
+        "sound": "/lət/"
       }
     ],
     "challenges": {
@@ -34008,11 +34008,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pla",
-        "sound": "plan"
+        "sound": "/plæn/"
       },
       {
         "text": "net",
-        "sound": "net"
+        "sound": "/ɪt/"
       }
     ],
     "challenges": {
@@ -34070,11 +34070,11 @@ const gameData = [
     "syllables": [
       {
         "text": "plas",
-        "sound": "plass"
+        "sound": "/plæs/"
       },
       {
         "text": "tic",
-        "sound": "tik"
+        "sound": "/tɪk/"
       }
     ],
     "challenges": {
@@ -34132,11 +34132,11 @@ const gameData = [
     "syllables": [
       {
         "text": "play",
-        "sound": "play"
+        "sound": "/pleɪ/"
       },
       {
         "text": "ground",
-        "sound": "ground"
+        "sound": "/ɡraʊnd/"
       }
     ],
     "challenges": {
@@ -34194,11 +34194,11 @@ const gameData = [
     "syllables": [
       {
         "text": "poc",
-        "sound": "pock"
+        "sound": "/pɒk/"
       },
       {
         "text": "ket",
-        "sound": "it"
+        "sound": "/ɪt/"
       }
     ],
     "challenges": {
@@ -34256,11 +34256,11 @@ const gameData = [
     "syllables": [
       {
         "text": "po",
-        "sound": "puh"
+        "sound": "/pə/"
       },
       {
         "text": "lice",
-        "sound": "lees"
+        "sound": "/liːs/"
       }
     ],
     "challenges": {
@@ -34319,15 +34319,15 @@ const gameData = [
     "syllables": [
       {
         "text": "po",
-        "sound": "puh"
+        "sound": "/pə/"
       },
       {
         "text": "llu",
-        "sound": "loo"
+        "sound": "/luː/"
       },
       {
         "text": "tion",
-        "sound": "shun"
+        "sound": "/ʃən/"
       }
     ],
     "challenges": {
@@ -34443,19 +34443,19 @@ const gameData = [
     "syllables": [
       {
         "text": "po",
-        "sound": "pop"
+        "sound": "/pɒp/"
       },
       {
         "text": "pu",
-        "sound": "yuh"
+        "sound": "/jə/"
       },
       {
         "text": "la",
-        "sound": "lay"
+        "sound": "/leɪ/"
       },
       {
         "text": "tion",
-        "sound": "shun"
+        "sound": "/ʃən/"
       }
     ],
     "challenges": {
@@ -34605,15 +34605,15 @@ const gameData = [
     "syllables": [
       {
         "text": "po",
-        "sound": "poz"
+        "sound": "/pɒz/"
       },
       {
         "text": "si",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "tive",
-        "sound": "tiv"
+        "sound": "/tɪv/"
       }
     ],
     "challenges": {
@@ -34728,15 +34728,15 @@ const gameData = [
     "syllables": [
       {
         "text": "po",
-        "sound": "puh"
+        "sound": "/pə/"
       },
       {
         "text": "ta",
-        "sound": "tay"
+        "sound": "/teɪ/"
       },
       {
         "text": "to",
-        "sound": "toh"
+        "sound": "/toʊ/"
       }
     ],
     "challenges": {
@@ -34817,11 +34817,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pre",
-        "sound": "prih"
+        "sound": "/prɪ/"
       },
       {
         "text": "pare",
-        "sound": "pair"
+        "sound": "/pɛər/"
       }
     ],
     "challenges": {
@@ -34902,11 +34902,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pre",
-        "sound": "prez"
+        "sound": "/prɛz/"
       },
       {
         "text": "sent",
-        "sound": "sent"
+        "sound": "/sənt/"
       }
     ],
     "challenges": {
@@ -34965,11 +34965,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pre",
-        "sound": "prih"
+        "sound": "/prɪ/"
       },
       {
         "text": "serve",
-        "sound": "zerv"
+        "sound": "/zɜːrv/"
       }
     ],
     "challenges": {
@@ -35051,11 +35051,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pre",
-        "sound": "prih"
+        "sound": "/prɪ/"
       },
       {
         "text": "vent",
-        "sound": "vent"
+        "sound": "/vɛnt/"
       }
     ],
     "challenges": {
@@ -35137,19 +35137,19 @@ const gameData = [
     "syllables": [
       {
         "text": "pri",
-        "sound": "pry"
+        "sound": "/praɪ/"
       },
       {
         "text": "or",
-        "sound": "or"
+        "sound": "/ɒr/"
       },
       {
         "text": "i",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "ty",
-        "sound": "tee"
+        "sound": "/ti/"
       }
     ],
     "challenges": {
@@ -35299,11 +35299,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pro",
-        "sound": "proh"
+        "sound": "/proʊ/"
       },
       {
         "text": "cess",
-        "sound": "ses"
+        "sound": "/sɛs/"
       }
     ],
     "challenges": {
@@ -35385,11 +35385,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pro",
-        "sound": "pruh"
+        "sound": "/prə/"
       },
       {
         "text": "found",
-        "sound": "fownd"
+        "sound": "/faʊnd/"
       }
     ],
     "challenges": {
@@ -35471,15 +35471,15 @@ const gameData = [
     "syllables": [
       {
         "text": "pro",
-        "sound": "pruh"
+        "sound": "/prə/"
       },
       {
         "text": "por",
-        "sound": "por"
+        "sound": "/pɔːr/"
       },
       {
         "text": "tion",
-        "sound": "shun"
+        "sound": "/ʃən/"
       }
     ],
     "challenges": {
@@ -35595,11 +35595,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pros",
-        "sound": "pros"
+        "sound": "/prɒs/"
       },
       {
         "text": "pect",
-        "sound": "pekt"
+        "sound": "/pɛkt/"
       }
     ],
     "challenges": {
@@ -35681,11 +35681,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pro",
-        "sound": "pruh"
+        "sound": "/prə/"
       },
       {
         "text": "tect",
-        "sound": "tekt"
+        "sound": "/tɛkt/"
       }
     ],
     "challenges": {
@@ -35767,11 +35767,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pu",
-        "sound": "pub"
+        "sound": "/pʌb/"
       },
       {
         "text": "blish",
-        "sound": "lish"
+        "sound": "/lɪʃ/"
       }
     ],
     "challenges": {
@@ -35852,11 +35852,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pump",
-        "sound": "pump"
+        "sound": "/pʌmp/"
       },
       {
         "text": "kin",
-        "sound": "kin"
+        "sound": "/kɪn/"
       }
     ],
     "challenges": {
@@ -35914,11 +35914,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pu",
-        "sound": "puh"
+        "sound": "/pʌ/"
       },
       {
         "text": "ppet",
-        "sound": "pit"
+        "sound": "/pɪt/"
       }
     ],
     "challenges": {
@@ -35976,11 +35976,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pur",
-        "sound": "per"
+        "sound": "/pɜːr/"
       },
       {
         "text": "ple",
-        "sound": "pul"
+        "sound": "/pəl/"
       }
     ],
     "challenges": {
@@ -36039,11 +36039,11 @@ const gameData = [
     "syllables": [
       {
         "text": "pur",
-        "sound": "per"
+        "sound": "/pɜːr/"
       },
       {
         "text": "pose",
-        "sound": "pus"
+        "sound": "/pəs/"
       }
     ],
     "challenges": {
@@ -36124,11 +36124,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ra",
-        "sound": "rab"
+        "sound": "/ræb/"
       },
       {
         "text": "bbit",
-        "sound": "bit"
+        "sound": "/ɪt/"
       }
     ],
     "challenges": {
@@ -36186,11 +36186,11 @@ const gameData = [
     "syllables": [
       {
         "text": "rain",
-        "sound": "rain"
+        "sound": "/reɪn/"
       },
       {
         "text": "coat",
-        "sound": "coat"
+        "sound": "/koʊt/"
       }
     ],
     "challenges": {
@@ -36249,15 +36249,15 @@ const gameData = [
     "syllables": [
       {
         "text": "re",
-        "sound": "ree"
+        "sound": "/riː/"
       },
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "lize",
-        "sound": "lyz"
+        "sound": "/laɪz/"
       }
     ],
     "challenges": {
@@ -36373,15 +36373,15 @@ const gameData = [
     "syllables": [
       {
         "text": "re",
-        "sound": "rek"
+        "sound": "/rɛk/"
       },
       {
         "text": "cog",
-        "sound": "ug"
+        "sound": "/əɡ/"
       },
       {
         "text": "nize",
-        "sound": "nyz"
+        "sound": "/naɪz/"
       }
     ],
     "challenges": {
@@ -36497,15 +36497,15 @@ const gameData = [
     "syllables": [
       {
         "text": "re",
-        "sound": "rek"
+        "sound": "/rɛk/"
       },
       {
         "text": "com",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "mend",
-        "sound": "mend"
+        "sound": "/mɛnd/"
       }
     ],
     "challenges": {
@@ -36621,11 +36621,11 @@ const gameData = [
     "syllables": [
       {
         "text": "re",
-        "sound": "rih"
+        "sound": "/rɪ/"
       },
       {
         "text": "duce",
-        "sound": "dyoos"
+        "sound": "/djuːs/"
       }
     ],
     "challenges": {
@@ -36707,19 +36707,19 @@ const gameData = [
     "syllables": [
       {
         "text": "re",
-        "sound": "rih"
+        "sound": "/rɪ/"
       },
       {
         "text": "la",
-        "sound": "lay"
+        "sound": "/leɪ/"
       },
       {
         "text": "tion",
-        "sound": "shun"
+        "sound": "/ʃən/"
       },
       {
         "text": "ship",
-        "sound": "ship"
+        "sound": "/ʃɪp/"
       }
     ],
     "challenges": {
@@ -36869,15 +36869,15 @@ const gameData = [
     "syllables": [
       {
         "text": "re",
-        "sound": "rel"
+        "sound": "/rɛl/"
       },
       {
         "text": "le",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "vant",
-        "sound": "vunt"
+        "sound": "/vənt/"
       }
     ],
     "challenges": {
@@ -36993,15 +36993,15 @@ const gameData = [
     "syllables": [
       {
         "text": "re",
-        "sound": "rih"
+        "sound": "/rɪ/"
       },
       {
         "text": "luc",
-        "sound": "luk"
+        "sound": "/lʌk/"
       },
       {
         "text": "tant",
-        "sound": "tunt"
+        "sound": "/tənt/"
       }
     ],
     "challenges": {
@@ -37117,11 +37117,11 @@ const gameData = [
     "syllables": [
       {
         "text": "re",
-        "sound": "rih"
+        "sound": "/rɪ/"
       },
       {
         "text": "search",
-        "sound": "serch"
+        "sound": "/sɜːrtʃ/"
       }
     ],
     "challenges": {
@@ -37203,19 +37203,19 @@ const gameData = [
     "syllables": [
       {
         "text": "re",
-        "sound": "rih"
+        "sound": "/rɪ/"
       },
       {
         "text": "spon",
-        "sound": "spon"
+        "sound": "/spɒn/"
       },
       {
         "text": "si",
-        "sound": "sih"
+        "sound": "/sɪ/"
       },
       {
         "text": "ble",
-        "sound": "bul"
+        "sound": "/bəl/"
       }
     ],
     "challenges": {
@@ -37365,19 +37365,19 @@ const gameData = [
     "syllables": [
       {
         "text": "re",
-        "sound": "rev"
+        "sound": "/rɛv/"
       },
       {
         "text": "vo",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "lu",
-        "sound": "loo"
+        "sound": "/luː/"
       },
       {
         "text": "tion",
-        "sound": "shun"
+        "sound": "/ʃən/"
       }
     ],
     "challenges": {
@@ -37526,11 +37526,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ri",
-        "sound": "riv"
+        "sound": "/rɪv/"
       },
       {
         "text": "ver",
-        "sound": "ver"
+        "sound": "/ər/"
       }
     ],
     "challenges": {
@@ -37588,11 +37588,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ro",
-        "sound": "roh"
+        "sound": "/roʊ/"
       },
       {
         "text": "bot",
-        "sound": "bot"
+        "sound": "/bɒt/"
       }
     ],
     "challenges": {
@@ -37650,11 +37650,11 @@ const gameData = [
     "syllables": [
       {
         "text": "roc",
-        "sound": "rock"
+        "sound": "/rɒk/"
       },
       {
         "text": "ket",
-        "sound": "it"
+        "sound": "/ɪt/"
       }
     ],
     "challenges": {
@@ -37712,11 +37712,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ru",
-        "sound": "roo"
+        "sound": "/ruː/"
       },
       {
         "text": "ler",
-        "sound": "ler"
+        "sound": "/lər/"
       }
     ],
     "challenges": {
@@ -37774,11 +37774,11 @@ const gameData = [
     "syllables": [
       {
         "text": "sa",
-        "sound": "sal"
+        "sound": "/sæl/"
       },
       {
         "text": "lad",
-        "sound": "ud"
+        "sound": "/əd/"
       }
     ],
     "challenges": {
@@ -37836,11 +37836,11 @@ const gameData = [
     "syllables": [
       {
         "text": "sand",
-        "sound": "sand"
+        "sound": "/sænd/"
       },
       {
         "text": "wich",
-        "sound": "wich"
+        "sound": "/wɪtʃ/"
       }
     ],
     "challenges": {
@@ -37899,15 +37899,15 @@ const gameData = [
     "syllables": [
       {
         "text": "sa",
-        "sound": "sat"
+        "sound": "/sæt/"
       },
       {
         "text": "tel",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "lite",
-        "sound": "lyt"
+        "sound": "/laɪt/"
       }
     ],
     "challenges": {
@@ -38022,15 +38022,15 @@ const gameData = [
     "syllables": [
       {
         "text": "sa",
-        "sound": "sat"
+        "sound": "/sæt/"
       },
       {
         "text": "tur",
-        "sound": "ter"
+        "sound": "/tər/"
       },
       {
         "text": "day",
-        "sound": "day"
+        "sound": "/deɪ/"
       }
     ],
     "challenges": {
@@ -38111,11 +38111,11 @@ const gameData = [
     "syllables": [
       {
         "text": "sche",
-        "sound": "skej"
+        "sound": "/ʃɛd/"
       },
       {
         "text": "dule",
-        "sound": "yool"
+        "sound": "/juːl/"
       }
     ],
     "challenges": {
@@ -38188,19 +38188,19 @@ const gameData = [
         }
       ]
     }
-  },
-  {
+  };,
+{
     "word": "schoolbag",
     "phonetic": "/'sku:lbæɡ/",
     "translation": "书包",
     "syllables": [
       {
         "text": "school",
-        "sound": "skool"
+        "sound": "/skuːl/"
       },
       {
         "text": "bag",
-        "sound": "bag"
+        "sound": "/bæɡ/"
       }
     ],
     "challenges": {
@@ -38258,11 +38258,11 @@ const gameData = [
     "syllables": [
       {
         "text": "sea",
-        "sound": "see"
+        "sound": "/siː/"
       },
       {
         "text": "son",
-        "sound": "sun"
+        "sound": "/sən/"
       }
     ],
     "challenges": {
@@ -38320,11 +38320,11 @@ const gameData = [
     "syllables": [
       {
         "text": "se",
-        "sound": "see"
+        "sound": "/siː/"
       },
       {
         "text": "cret",
-        "sound": "krit"
+        "sound": "/krɪt/"
       }
     ],
     "challenges": {
@@ -38382,11 +38382,11 @@ const gameData = [
     "syllables": [
       {
         "text": "sha",
-        "sound": "shad"
+        "sound": "/ʃæd/"
       },
       {
         "text": "dow",
-        "sound": "doh"
+        "sound": "/doʊ/"
       }
     ],
     "challenges": {
@@ -38445,19 +38445,19 @@ const gameData = [
     "syllables": [
       {
         "text": "sig",
-        "sound": "sig"
+        "sound": "/sɪɡ/"
       },
       {
         "text": "ni",
-        "sound": "nih"
+        "sound": "/nɪ/"
       },
       {
         "text": "fi",
-        "sound": "fih"
+        "sound": "/fɪ/"
       },
       {
         "text": "cant",
-        "sound": "kunt"
+        "sound": "/kənt/"
       }
     ],
     "challenges": {
@@ -38606,11 +38606,11 @@ const gameData = [
     "syllables": [
       {
         "text": "sil",
-        "sound": "sil"
+        "sound": "/sɪl/"
       },
       {
         "text": "ver",
-        "sound": "ver"
+        "sound": "/vər/"
       }
     ],
     "challenges": {
@@ -38668,11 +38668,11 @@ const gameData = [
     "syllables": [
       {
         "text": "sis",
-        "sound": "sis"
+        "sound": "/sɪs/"
       },
       {
         "text": "ter",
-        "sound": "ter"
+        "sound": "/tər/"
       }
     ],
     "challenges": {
@@ -38730,11 +38730,11 @@ const gameData = [
     "syllables": [
       {
         "text": "snow",
-        "sound": "snoh"
+        "sound": "/snoʊ/"
       },
       {
         "text": "man",
-        "sound": "man"
+        "sound": "/mæn/"
       }
     ],
     "challenges": {
@@ -38792,11 +38792,11 @@ const gameData = [
     "syllables": [
       {
         "text": "soc",
-        "sound": "sock"
+        "sound": "/sɒk/"
       },
       {
         "text": "cer",
-        "sound": "er"
+        "sound": "/ər/"
       }
     ],
     "challenges": {
@@ -38855,23 +38855,23 @@ const gameData = [
     "syllables": [
       {
         "text": "so",
-        "sound": "suh"
+        "sound": "/sə/"
       },
       {
         "text": "phis",
-        "sound": "fis"
+        "sound": "/fɪs/"
       },
       {
         "text": "ti",
-        "sound": "tih"
+        "sound": "/tɪ/"
       },
       {
         "text": "ca",
-        "sound": "kay"
+        "sound": "/keɪ/"
       },
       {
         "text": "ted",
-        "sound": "tid"
+        "sound": "/tɪd/"
       }
     ],
     "challenges": {
@@ -39054,11 +39054,11 @@ const gameData = [
     "syllables": [
       {
         "text": "spi",
-        "sound": "spy"
+        "sound": "/spaɪ/"
       },
       {
         "text": "der",
-        "sound": "der"
+        "sound": "/dər/"
       }
     ],
     "challenges": {
@@ -39116,11 +39116,11 @@ const gameData = [
     "syllables": [
       {
         "text": "stan",
-        "sound": "stan"
+        "sound": "/stæn/"
       },
       {
         "text": "dard",
-        "sound": "derd"
+        "sound": "/dərd/"
       }
     ],
     "challenges": {
@@ -39178,11 +39178,11 @@ const gameData = [
     "syllables": [
       {
         "text": "sta",
-        "sound": "stay"
+        "sound": "/steɪ/"
       },
       {
         "text": "tion",
-        "sound": "shun"
+        "sound": "/ʃən/"
       }
     ],
     "challenges": {
@@ -39241,15 +39241,15 @@ const gameData = [
     "syllables": [
       {
         "text": "sti",
-        "sound": "stim"
+        "sound": "/stɪm/"
       },
       {
         "text": "mu",
-        "sound": "yuh"
+        "sound": "/jə/"
       },
       {
         "text": "late",
-        "sound": "layt"
+        "sound": "/leɪt/"
       }
     ],
     "challenges": {
@@ -39364,11 +39364,11 @@ const gameData = [
     "syllables": [
       {
         "text": "sto",
-        "sound": "stor"
+        "sound": "/stɔːr/"
       },
       {
         "text": "ry",
-        "sound": "ree"
+        "sound": "/i/"
       }
     ],
     "challenges": {
@@ -39427,15 +39427,15 @@ const gameData = [
     "syllables": [
       {
         "text": "stra",
-        "sound": "strat"
+        "sound": "/stræt/"
       },
       {
         "text": "te",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "gy",
-        "sound": "jee"
+        "sound": "/dʒi/"
       }
     ],
     "challenges": {
@@ -39550,11 +39550,11 @@ const gameData = [
     "syllables": [
       {
         "text": "sub",
-        "sound": "sub"
+        "sound": "/sʌb/"
       },
       {
         "text": "ject",
-        "sound": "jekt"
+        "sound": "/dʒɛkt/"
       }
     ],
     "challenges": {
@@ -39613,15 +39613,15 @@ const gameData = [
     "syllables": [
       {
         "text": "sub",
-        "sound": "sub"
+        "sound": "/sʌb/"
       },
       {
         "text": "jec",
-        "sound": "jek"
+        "sound": "/dʒɛk/"
       },
       {
         "text": "tive",
-        "sound": "tiv"
+        "sound": "/tɪv/"
       }
     ],
     "challenges": {
@@ -39737,15 +39737,15 @@ const gameData = [
     "syllables": [
       {
         "text": "sub",
-        "sound": "sub"
+        "sound": "/sʌb/"
       },
       {
         "text": "se",
-        "sound": "sih"
+        "sound": "/sɪ/"
       },
       {
         "text": "quent",
-        "sound": "kwunt"
+        "sound": "/kwənt/"
       }
     ],
     "challenges": {
@@ -39860,11 +39860,11 @@ const gameData = [
     "syllables": [
       {
         "text": "sub",
-        "sound": "sub"
+        "sound": "/sʌb/"
       },
       {
         "text": "way",
-        "sound": "way"
+        "sound": "/weɪ/"
       }
     ],
     "challenges": {
@@ -39923,15 +39923,15 @@ const gameData = [
     "syllables": [
       {
         "text": "su",
-        "sound": "suh"
+        "sound": "/sə/"
       },
       {
         "text": "ffi",
-        "sound": "fish"
+        "sound": "/fɪ/"
       },
       {
         "text": "cient",
-        "sound": "unt"
+        "sound": "/ʃənt/"
       }
     ],
     "challenges": {
@@ -40046,11 +40046,11 @@ const gameData = [
     "syllables": [
       {
         "text": "su",
-        "sound": "sum"
+        "sound": "/sʌm/"
       },
       {
         "text": "mmer",
-        "sound": "mer"
+        "sound": "/ər/"
       }
     ],
     "challenges": {
@@ -40108,11 +40108,11 @@ const gameData = [
     "syllables": [
       {
         "text": "sun",
-        "sound": "sun"
+        "sound": "/sʌn/"
       },
       {
         "text": "day",
-        "sound": "day"
+        "sound": "/deɪ/"
       }
     ],
     "challenges": {
@@ -40170,15 +40170,15 @@ const gameData = [
     "syllables": [
       {
         "text": "sun",
-        "sound": "sun"
+        "sound": "/sʌn/"
       },
       {
         "text": "flo",
-        "sound": "flaw"
+        "sound": "/flaʊ/"
       },
       {
         "text": "wer",
-        "sound": "er"
+        "sound": "/ər/"
       }
     ],
     "challenges": {
@@ -40258,11 +40258,11 @@ const gameData = [
     "syllables": [
       {
         "text": "sun",
-        "sound": "sun"
+        "sound": "/sʌn/"
       },
       {
         "text": "shine",
-        "sound": "shine"
+        "sound": "/ʃaɪn/"
       }
     ],
     "challenges": {
@@ -40321,19 +40321,19 @@ const gameData = [
     "syllables": [
       {
         "text": "sus",
-        "sound": "sus"
+        "sound": "/sʌs/"
       },
       {
         "text": "tain",
-        "sound": "tayn"
+        "sound": "/teɪn/"
       },
       {
         "text": "a",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "ble",
-        "sound": "bul"
+        "sound": "/bəl/"
       }
     ],
     "challenges": {
@@ -40482,11 +40482,11 @@ const gameData = [
     "syllables": [
       {
         "text": "swea",
-        "sound": "swet"
+        "sound": "/swɛt/"
       },
       {
         "text": "ter",
-        "sound": "ter"
+        "sound": "/ər/"
       }
     ],
     "challenges": {
@@ -40545,15 +40545,15 @@ const gameData = [
     "syllables": [
       {
         "text": "sym",
-        "sound": "sim"
+        "sound": "/sɪm/"
       },
       {
         "text": "bo",
-        "sound": "buh"
+        "sound": "/bə/"
       },
       {
         "text": "lize",
-        "sound": "lyz"
+        "sound": "/laɪz/"
       }
     ],
     "challenges": {
@@ -40668,11 +40668,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ta",
-        "sound": "tay"
+        "sound": "/teɪ/"
       },
       {
         "text": "ble",
-        "sound": "bul"
+        "sound": "/bəl/"
       }
     ],
     "challenges": {
@@ -40730,11 +40730,11 @@ const gameData = [
     "syllables": [
       {
         "text": "tai",
-        "sound": "tay"
+        "sound": "/teɪ/"
       },
       {
         "text": "lor",
-        "sound": "ler"
+        "sound": "/lər/"
       }
     ],
     "challenges": {
@@ -40792,11 +40792,11 @@ const gameData = [
     "syllables": [
       {
         "text": "tax",
-        "sound": "tax"
+        "sound": "/tæks/"
       },
       {
         "text": "i",
-        "sound": "ee"
+        "sound": "/i/"
       }
     ],
     "challenges": {
@@ -40854,11 +40854,11 @@ const gameData = [
     "syllables": [
       {
         "text": "tea",
-        "sound": "tee"
+        "sound": "/tiː/"
       },
       {
         "text": "cher",
-        "sound": "cher"
+        "sound": "/tʃər/"
       }
     ],
     "challenges": {
@@ -40917,19 +40917,19 @@ const gameData = [
     "syllables": [
       {
         "text": "tech",
-        "sound": "tek"
+        "sound": "/tɛk/"
       },
       {
         "text": "no",
-        "sound": "nol"
+        "sound": "/nɒl/"
       },
       {
         "text": "lo",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "gy",
-        "sound": "jee"
+        "sound": "/dʒi/"
       }
     ],
     "challenges": {
@@ -41078,11 +41078,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ten",
-        "sound": "ten"
+        "sound": "/tɛn/"
       },
       {
         "text": "nis",
-        "sound": "is"
+        "sound": "/ɪs/"
       }
     ],
     "challenges": {
@@ -41141,19 +41141,19 @@ const gameData = [
     "syllables": [
       {
         "text": "ter",
-        "sound": "ter"
+        "sound": "/tɛr/"
       },
       {
         "text": "ri",
-        "sound": "ih"
+        "sound": "/ɪ/"
       },
       {
         "text": "to",
-        "sound": "tor"
+        "sound": "/tɔːr/"
       },
       {
         "text": "ry",
-        "sound": "ee"
+        "sound": "/i/"
       }
     ],
     "challenges": {
@@ -41302,11 +41302,11 @@ const gameData = [
     "syllables": [
       {
         "text": "thea",
-        "sound": "thee"
+        "sound": "/θiː/"
       },
       {
         "text": "ter",
-        "sound": "ter"
+        "sound": "/tər/"
       }
     ],
     "challenges": {
@@ -41364,11 +41364,11 @@ const gameData = [
     "syllables": [
       {
         "text": "thir",
-        "sound": "ther"
+        "sound": "/θɜːr/"
       },
       {
         "text": "teen",
-        "sound": "teen"
+        "sound": "/tiːn/"
       }
     ],
     "challenges": {
@@ -41426,11 +41426,11 @@ const gameData = [
     "syllables": [
       {
         "text": "thir",
-        "sound": "ther"
+        "sound": "/θɜːr/"
       },
       {
         "text": "ty",
-        "sound": "tee"
+        "sound": "/ti/"
       }
     ],
     "challenges": {
@@ -41488,11 +41488,11 @@ const gameData = [
     "syllables": [
       {
         "text": "thurs",
-        "sound": "therz"
+        "sound": "/θɜːrz/"
       },
       {
         "text": "day",
-        "sound": "day"
+        "sound": "/deɪ/"
       }
     ],
     "challenges": {
@@ -41550,11 +41550,11 @@ const gameData = [
     "syllables": [
       {
         "text": "tic",
-        "sound": "tick"
+        "sound": "/tɪk/"
       },
       {
         "text": "ket",
-        "sound": "it"
+        "sound": "/ɪt/"
       }
     ],
     "challenges": {
@@ -41612,11 +41612,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ti",
-        "sound": "tie"
+        "sound": "/taɪ/"
       },
       {
         "text": "ger",
-        "sound": "ger"
+        "sound": "/ɡər/"
       }
     ],
     "challenges": {
@@ -41674,11 +41674,11 @@ const gameData = [
     "syllables": [
       {
         "text": "to",
-        "sound": "tuh"
+        "sound": "/tə/"
       },
       {
         "text": "day",
-        "sound": "day"
+        "sound": "/deɪ/"
       }
     ],
     "challenges": {
@@ -41736,15 +41736,15 @@ const gameData = [
     "syllables": [
       {
         "text": "to",
-        "sound": "tuh"
+        "sound": "/tə/"
       },
       {
         "text": "ma",
-        "sound": "mah"
+        "sound": "/mɑː/"
       },
       {
         "text": "to",
-        "sound": "toh"
+        "sound": "/toʊ/"
       }
     ],
     "challenges": {
@@ -41802,15 +41802,15 @@ const gameData = [
     "syllables": [
       {
         "text": "to",
-        "sound": "tuh"
+        "sound": "/tə/"
       },
       {
         "text": "mo",
-        "sound": "mor"
+        "sound": "/mɒr/"
       },
       {
         "text": "rrow",
-        "sound": "oh"
+        "sound": "/oʊ/"
       }
     ],
     "challenges": {
@@ -41891,15 +41891,15 @@ const gameData = [
     "syllables": [
       {
         "text": "tra",
-        "sound": "truh"
+        "sound": "/trə/"
       },
       {
         "text": "di",
-        "sound": "dish"
+        "sound": "/dɪ/"
       },
       {
         "text": "tion",
-        "sound": "un"
+        "sound": "/ən/"
       }
     ],
     "challenges": {
@@ -42014,11 +42014,11 @@ const gameData = [
     "syllables": [
       {
         "text": "tra",
-        "sound": "traf"
+        "sound": "/træf/"
       },
       {
         "text": "ffic",
-        "sound": "fik"
+        "sound": "/ɪk/"
       }
     ],
     "challenges": {
@@ -42077,11 +42077,11 @@ const gameData = [
     "syllables": [
       {
         "text": "trans",
-        "sound": "trans"
+        "sound": "/træns/"
       },
       {
         "text": "form",
-        "sound": "form"
+        "sound": "/fɔːrm/"
       }
     ],
     "challenges": {
@@ -42163,15 +42163,15 @@ const gameData = [
     "syllables": [
       {
         "text": "trans",
-        "sound": "trans"
+        "sound": "/træns/"
       },
       {
         "text": "pa",
-        "sound": "pair"
+        "sound": "/pær/"
       },
       {
         "text": "rent",
-        "sound": "runt"
+        "sound": "/rənt/"
       }
     ],
     "challenges": {
@@ -42286,11 +42286,11 @@ const gameData = [
     "syllables": [
       {
         "text": "tra",
-        "sound": "trav"
+        "sound": "/træv/"
       },
       {
         "text": "vel",
-        "sound": "vel"
+        "sound": "/vəl/"
       }
     ],
     "challenges": {
@@ -42348,11 +42348,11 @@ const gameData = [
     "syllables": [
       {
         "text": "trea",
-        "sound": "trezh"
+        "sound": "/trɛʒ/"
       },
       {
         "text": "sure",
-        "sound": "er"
+        "sound": "/ər/"
       }
     ],
     "challenges": {
@@ -42411,15 +42411,15 @@ const gameData = [
     "syllables": [
       {
         "text": "tre",
-        "sound": "trih"
+        "sound": "/trɪ/"
       },
       {
         "text": "men",
-        "sound": "men"
+        "sound": "/mɛn/"
       },
       {
         "text": "dous",
-        "sound": "dus"
+        "sound": "/dəs/"
       }
     ],
     "challenges": {
@@ -42534,11 +42534,11 @@ const gameData = [
     "syllables": [
       {
         "text": "tues",
-        "sound": "tyooz"
+        "sound": "/tjuːz/"
       },
       {
         "text": "day",
-        "sound": "day"
+        "sound": "/deɪ/"
       }
     ],
     "challenges": {
@@ -42596,11 +42596,11 @@ const gameData = [
     "syllables": [
       {
         "text": "tun",
-        "sound": "tun"
+        "sound": "/tʌn/"
       },
       {
         "text": "nel",
-        "sound": "nel"
+        "sound": "/nəl/"
       }
     ],
     "challenges": {
@@ -42658,11 +42658,11 @@ const gameData = [
     "syllables": [
       {
         "text": "tur",
-        "sound": "ter"
+        "sound": "/tɜːr/"
       },
       {
         "text": "key",
-        "sound": "kee"
+        "sound": "/ki/"
       }
     ],
     "challenges": {
@@ -42720,11 +42720,11 @@ const gameData = [
     "syllables": [
       {
         "text": "tur",
-        "sound": "ter"
+        "sound": "/tɜːr/"
       },
       {
         "text": "tle",
-        "sound": "tul"
+        "sound": "/təl/"
       }
     ],
     "challenges": {
@@ -42782,11 +42782,11 @@ const gameData = [
     "syllables": [
       {
         "text": "twen",
-        "sound": "twen"
+        "sound": "/twɛn/"
       },
       {
         "text": "ty",
-        "sound": "tee"
+        "sound": "/ti/"
       }
     ],
     "challenges": {
@@ -42845,15 +42845,15 @@ const gameData = [
     "syllables": [
       {
         "text": "ul",
-        "sound": "ul"
+        "sound": "/ʌl/"
       },
       {
         "text": "ti",
-        "sound": "tih"
+        "sound": "/tɪ/"
       },
       {
         "text": "mate",
-        "sound": "mut"
+        "sound": "/mət/"
       }
     ],
     "challenges": {
@@ -42968,15 +42968,15 @@ const gameData = [
     "syllables": [
       {
         "text": "um",
-        "sound": "um"
+        "sound": "/ʌm/"
       },
       {
         "text": "bre",
-        "sound": "brel"
+        "sound": "/brɛl/"
       },
       {
         "text": "lla",
-        "sound": "uh"
+        "sound": "/ə/"
       }
     ],
     "challenges": {
@@ -43056,11 +43056,11 @@ const gameData = [
     "syllables": [
       {
         "text": "un",
-        "sound": "ung"
+        "sound": "/ʌŋ/"
       },
       {
         "text": "cle",
-        "sound": "kul"
+        "sound": "/kəl/"
       }
     ],
     "challenges": {
@@ -43118,11 +43118,11 @@ const gameData = [
     "syllables": [
       {
         "text": "un",
-        "sound": "un"
+        "sound": "/ʌn/"
       },
       {
         "text": "der",
-        "sound": "der"
+        "sound": "/dər/"
       }
     ],
     "challenges": {
@@ -43181,15 +43181,15 @@ const gameData = [
     "syllables": [
       {
         "text": "un",
-        "sound": "un"
+        "sound": "/ʌn/"
       },
       {
         "text": "der",
-        "sound": "der"
+        "sound": "/dər/"
       },
       {
         "text": "mine",
-        "sound": "myn"
+        "sound": "/maɪn/"
       }
     ],
     "challenges": {
@@ -43304,15 +43304,15 @@ const gameData = [
     "syllables": [
       {
         "text": "un",
-        "sound": "un"
+        "sound": "/ʌn/"
       },
       {
         "text": "ha",
-        "sound": "hap"
+        "sound": "/hæp/"
       },
       {
         "text": "ppy",
-        "sound": "pee"
+        "sound": "/i/"
       }
     ],
     "challenges": {
@@ -43392,15 +43392,15 @@ const gameData = [
     "syllables": [
       {
         "text": "u",
-        "sound": "yoo"
+        "sound": "/juː/"
       },
       {
         "text": "ni",
-        "sound": "nuh"
+        "sound": "/nɪ/"
       },
       {
         "text": "form",
-        "sound": "form"
+        "sound": "/fɔːrm/"
       }
     ],
     "challenges": {
@@ -43480,11 +43480,11 @@ const gameData = [
     "syllables": [
       {
         "text": "use",
-        "sound": "yoos"
+        "sound": "/juːs/"
       },
       {
         "text": "ful",
-        "sound": "ful"
+        "sound": "/fəl/"
       }
     ],
     "challenges": {
@@ -43542,15 +43542,15 @@ const gameData = [
     "syllables": [
       {
         "text": "va",
-        "sound": "vay"
+        "sound": "/veɪ/"
       },
       {
         "text": "ca",
-        "sound": "kay"
+        "sound": "/keɪ/"
       },
       {
         "text": "tion",
-        "sound": "shun"
+        "sound": "/ʃən/"
       }
     ],
     "challenges": {
@@ -43631,19 +43631,19 @@ const gameData = [
     "syllables": [
       {
         "text": "va",
-        "sound": "vuh"
+        "sound": "/və/"
       },
       {
         "text": "ri",
-        "sound": "ry"
+        "sound": "/raɪ/"
       },
       {
         "text": "e",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "ty",
-        "sound": "tee"
+        "sound": "/ti/"
       }
     ],
     "challenges": {
@@ -43792,15 +43792,15 @@ const gameData = [
     "syllables": [
       {
         "text": "vege",
-        "sound": "vej"
+        "sound": "/vɛdʒ/"
       },
       {
         "text": "ta",
-        "sound": "tuh"
+        "sound": "/tə/"
       },
       {
         "text": "ble",
-        "sound": "bul"
+        "sound": "/bəl/"
       }
     ],
     "challenges": {
@@ -43880,11 +43880,11 @@ const gameData = [
     "syllables": [
       {
         "text": "vi",
-        "sound": "vil"
+        "sound": "/vɪl/"
       },
       {
         "text": "llage",
-        "sound": "ij"
+        "sound": "/ɪdʒ/"
       }
     ],
     "challenges": {
@@ -43942,15 +43942,15 @@ const gameData = [
     "syllables": [
       {
         "text": "vi",
-        "sound": "vy"
+        "sound": "/vaɪ/"
       },
       {
         "text": "o",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "lin",
-        "sound": "lin"
+        "sound": "/lɪn/"
       }
     ],
     "challenges": {
@@ -44030,11 +44030,11 @@ const gameData = [
     "syllables": [
       {
         "text": "vi",
-        "sound": "viz"
+        "sound": "/vɪz/"
       },
       {
         "text": "sit",
-        "sound": "it"
+        "sound": "/ɪt/"
       }
     ],
     "challenges": {
@@ -44092,15 +44092,15 @@ const gameData = [
     "syllables": [
       {
         "text": "vo",
-        "sound": "vol"
+        "sound": "/vɒl/"
       },
       {
         "text": "lle",
-        "sound": "ee"
+        "sound": "/i/"
       },
       {
         "text": "ball",
-        "sound": "ball"
+        "sound": "/bɔːl/"
       }
     ],
     "challenges": {
@@ -44181,19 +44181,19 @@ const gameData = [
     "syllables": [
       {
         "text": "vo",
-        "sound": "vol"
+        "sound": "/vɒl/"
       },
       {
         "text": "lun",
-        "sound": "un"
+        "sound": "/ən/"
       },
       {
         "text": "ta",
-        "sound": "tuh"
+        "sound": "/tə/"
       },
       {
         "text": "ry",
-        "sound": "ree"
+        "sound": "/i/"
       }
     ],
     "challenges": {
@@ -44343,15 +44343,15 @@ const gameData = [
     "syllables": [
       {
         "text": "vo",
-        "sound": "vol"
+        "sound": "/vɒl/"
       },
       {
         "text": "lun",
-        "sound": "un"
+        "sound": "/ən/"
       },
       {
         "text": "teer",
-        "sound": "teer"
+        "sound": "/tɪr/"
       }
     ],
     "challenges": {
@@ -44467,19 +44467,19 @@ const gameData = [
     "syllables": [
       {
         "text": "vul",
-        "sound": "vul"
+        "sound": "/vʌl/"
       },
       {
         "text": "ne",
-        "sound": "ner"
+        "sound": "/nər/"
       },
       {
         "text": "ra",
-        "sound": "uh"
+        "sound": "/ə/"
       },
       {
         "text": "ble",
-        "sound": "bul"
+        "sound": "/bəl/"
       }
     ],
     "challenges": {
@@ -44628,11 +44628,11 @@ const gameData = [
     "syllables": [
       {
         "text": "wai",
-        "sound": "wait"
+        "sound": "/weɪ/"
       },
       {
         "text": "ter",
-        "sound": "ter"
+        "sound": "/tər/"
       }
     ],
     "challenges": {
@@ -44690,11 +44690,11 @@ const gameData = [
     "syllables": [
       {
         "text": "wa",
-        "sound": "wol"
+        "sound": "/wɒl/"
       },
       {
         "text": "llet",
-        "sound": "it"
+        "sound": "/ɪt/"
       }
     ],
     "challenges": {
@@ -44752,11 +44752,11 @@ const gameData = [
     "syllables": [
       {
         "text": "wa",
-        "sound": "waw"
+        "sound": "/wɔː/"
       },
       {
         "text": "ter",
-        "sound": "ter"
+        "sound": "/tər/"
       }
     ],
     "challenges": {
@@ -44814,19 +44814,19 @@ const gameData = [
     "syllables": [
       {
         "text": "wa",
-        "sound": "waw"
+        "sound": "/wɔː/"
       },
       {
         "text": "ter",
-        "sound": "ter"
+        "sound": "/tər/"
       },
       {
         "text": "me",
-        "sound": "mel"
+        "sound": "/mɛl/"
       },
       {
         "text": "lon",
-        "sound": "un"
+        "sound": "/ən/"
       }
     ],
     "challenges": {
@@ -44928,11 +44928,11 @@ const gameData = [
     "syllables": [
       {
         "text": "wea",
-        "sound": "weth"
+        "sound": "/wɛð/"
       },
       {
         "text": "ther",
-        "sound": "ther"
+        "sound": "/ðər/"
       }
     ],
     "challenges": {
@@ -44990,11 +44990,11 @@ const gameData = [
     "syllables": [
       {
         "text": "wed",
-        "sound": "wed"
+        "sound": "/wɛd/"
       },
       {
         "text": "ding",
-        "sound": "ing"
+        "sound": "/ɪŋ/"
       }
     ],
     "challenges": {
@@ -45052,15 +45052,15 @@ const gameData = [
     "syllables": [
       {
         "text": "wed",
-        "sound": "wenz"
+        "sound": "/wɛnz/"
       },
       {
         "text": "nes",
-        "sound": "nez"
+        "sound": "/nɛz/"
       },
       {
         "text": "day",
-        "sound": "day"
+        "sound": "/deɪ/"
       }
     ],
     "challenges": {
@@ -45140,11 +45140,11 @@ const gameData = [
     "syllables": [
       {
         "text": "week",
-        "sound": "week"
+        "sound": "/wiːk/"
       },
       {
         "text": "end",
-        "sound": "end"
+        "sound": "/ɛnd/"
       }
     ],
     "challenges": {
@@ -45202,11 +45202,11 @@ const gameData = [
     "syllables": [
       {
         "text": "wel",
-        "sound": "wel"
+        "sound": "/wɛl/"
       },
       {
         "text": "come",
-        "sound": "kum"
+        "sound": "/kəm/"
       }
     ],
     "challenges": {
@@ -45265,11 +45265,11 @@ const gameData = [
     "syllables": [
       {
         "text": "wel",
-        "sound": "wel"
+        "sound": "/wɛl/"
       },
       {
         "text": "fare",
-        "sound": "fair"
+        "sound": "/fɛər/"
       }
     ],
     "challenges": {
@@ -45350,11 +45350,11 @@ const gameData = [
     "syllables": [
       {
         "text": "whis",
-        "sound": "wiss"
+        "sound": "/wɪs/"
       },
       {
         "text": "per",
-        "sound": "per"
+        "sound": "/pər/"
       }
     ],
     "challenges": {
@@ -45412,11 +45412,11 @@ const gameData = [
     "syllables": [
       {
         "text": "whis",
-        "sound": "wiss"
+        "sound": "/wɪs/"
       },
       {
         "text": "tle",
-        "sound": "ul"
+        "sound": "/əl/"
       }
     ],
     "challenges": {
@@ -45474,11 +45474,11 @@ const gameData = [
     "syllables": [
       {
         "text": "win",
-        "sound": "win"
+        "sound": "/wɪn/"
       },
       {
         "text": "dow",
-        "sound": "doh"
+        "sound": "/doʊ/"
       }
     ],
     "challenges": {
@@ -45536,11 +45536,11 @@ const gameData = [
     "syllables": [
       {
         "text": "win",
-        "sound": "win"
+        "sound": "/wɪn/"
       },
       {
         "text": "dy",
-        "sound": "dee"
+        "sound": "/di/"
       }
     ],
     "challenges": {
@@ -45598,11 +45598,11 @@ const gameData = [
     "syllables": [
       {
         "text": "wi",
-        "sound": "win"
+        "sound": "/wɪn/"
       },
       {
         "text": "nner",
-        "sound": "ner"
+        "sound": "/ər/"
       }
     ],
     "challenges": {
@@ -45660,11 +45660,11 @@ const gameData = [
     "syllables": [
       {
         "text": "win",
-        "sound": "win"
+        "sound": "/wɪn/"
       },
       {
         "text": "ter",
-        "sound": "ter"
+        "sound": "/tər/"
       }
     ],
     "challenges": {
@@ -45722,11 +45722,11 @@ const gameData = [
     "syllables": [
       {
         "text": "with",
-        "sound": "with"
+        "sound": "/wɪð/"
       },
       {
         "text": "out",
-        "sound": "owt"
+        "sound": "/aʊt/"
       }
     ],
     "challenges": {
@@ -45784,11 +45784,11 @@ const gameData = [
     "syllables": [
       {
         "text": "wo",
-        "sound": "woom"
+        "sound": "/wʊm/"
       },
       {
         "text": "man",
-        "sound": "un"
+        "sound": "/ən/"
       }
     ],
     "challenges": {
@@ -45846,11 +45846,11 @@ const gameData = [
     "syllables": [
       {
         "text": "won",
-        "sound": "wun"
+        "sound": "/wʌn/"
       },
       {
         "text": "der",
-        "sound": "der"
+        "sound": "/dər/"
       }
     ],
     "challenges": {
@@ -45908,11 +45908,11 @@ const gameData = [
     "syllables": [
       {
         "text": "wood",
-        "sound": "wood"
+        "sound": "/wʊd/"
       },
       {
         "text": "en",
-        "sound": "en"
+        "sound": "/ən/"
       }
     ],
     "challenges": {
@@ -45970,11 +45970,11 @@ const gameData = [
     "syllables": [
       {
         "text": "wor",
-        "sound": "werk"
+        "sound": "/wɜːrk/"
       },
       {
         "text": "ker",
-        "sound": "ker"
+        "sound": "/kər/"
       }
     ],
     "challenges": {
@@ -46033,11 +46033,11 @@ const gameData = [
     "syllables": [
       {
         "text": "world",
-        "sound": "werld"
+        "sound": "/wɜːrld/"
       },
       {
         "text": "wide",
-        "sound": "wyd"
+        "sound": "/waɪd/"
       }
     ],
     "challenges": {
@@ -46118,11 +46118,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ye",
-        "sound": "yel"
+        "sound": "/jɛl/"
       },
       {
         "text": "llow",
-        "sound": "oh"
+        "sound": "/oʊ/"
       }
     ],
     "challenges": {
@@ -46180,11 +46180,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ze",
-        "sound": "zee"
+        "sound": "/ziː/"
       },
       {
         "text": "bra",
-        "sound": "bruh"
+        "sound": "/brə/"
       }
     ],
     "challenges": {
@@ -46242,11 +46242,11 @@ const gameData = [
     "syllables": [
       {
         "text": "ze",
-        "sound": "zee"
+        "sound": "/zɪə/"
       },
       {
         "text": "ro",
-        "sound": "roh"
+        "sound": "/roʊ/"
       }
     ],
     "challenges": {
@@ -46304,11 +46304,11 @@ const gameData = [
     "syllables": [
       {
         "text": "zip",
-        "sound": "zip"
+        "sound": "/zɪp/"
       },
       {
         "text": "per",
-        "sound": "per"
+        "sound": "/pər/"
       }
     ],
     "challenges": {
