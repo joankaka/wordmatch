@@ -153,6 +153,9 @@
         <div id="game-left-col" class="flex flex-col gap-3"></div>
         <div id="game-right-col" class="flex flex-col gap-3"></div>
       </div>
+      <div id="no-challenge-msg" class="hidden text-center py-6">
+        <p class="text-sm text-slate-400 font-medium">该音节暂无拓展词</p>
+      </div>
 
       <!-- 通关庆祝 -->
       <div id="game-win-screen" class="hidden flex justify-center mb-5">
@@ -443,13 +446,7 @@
         rightCardsData = [];
         document.getElementById('game-left-col').innerHTML = '';
         document.getElementById('game-right-col').innerHTML = '';
-        const _old = document.getElementById('no-challenge-msg');
-        if (_old) _old.remove();
-        const _msg = document.createElement('div');
-        _msg.id = 'no-challenge-msg';
-        _msg.style.cssText = 'grid-column: 1 / -1; text-align: center; padding: 24px 0;';
-        _msg.innerHTML = '<p style="font-size:0.875rem;color:#94a3b8;font-weight:500;">该音节暂无拓展词</p>';
-        document.getElementById('game-left-col').parentElement.appendChild(_msg);
+        document.getElementById('no-challenge-msg').classList.remove('hidden');
         document.getElementById('game-inline-progress').textContent = '';
         document.getElementById('btn-next-batch').classList.add('hidden');
         document.getElementById('btn-next-batch').classList.remove('flex');
@@ -497,8 +494,7 @@
       const rightCol = document.getElementById('game-right-col');
       leftCol.innerHTML = '';
       rightCol.innerHTML = '';
-      const _old = document.getElementById('no-challenge-msg');
-      if (_old) _old.remove();
+      document.getElementById('no-challenge-msg').classList.add('hidden');
 
       leftCardsData.forEach((card, index) => {
         const btn = document.createElement('button');
